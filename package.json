@@ -1,0 +1,36 @@
+{
+  "//1": "Intercom IBM Watson Interface",
+  "//2": "Uses the Intercom API to redirect messages to IBM Watson",
+  "//3": "It is still early stage",
+  "name": "intercom-watson-interface",
+  "version": "1.0.0",
+  "description": "Lightning fast",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "b1": "^0.0.1",
+    "bl": "^2.1.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "git": "^0.1.5",
+    "intercom-client": "^2.10.3",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "nodemailer": "^5.1.1",
+    "request": "^2.88.0",
+    "watson-developer-cloud": "^3.13.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/janvdhorst/Intercom-IBM-Watson-Interface"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
