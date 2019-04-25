@@ -1,7 +1,7 @@
 Intercom-IBM-Watson Interface
 =================
 
-This is a simple interface taht connects Intercom to IBM Watson Assistant. 
+This is a simple interface that connects Intercom to IBM Watson Assistant. 
 To use it, you will already need the following things
 - an up and running IBM Watson Chatbot
 - your IBM Watson API Credentials ([Documentation](https://cloud.ibm.com/apidocs/assistant))
