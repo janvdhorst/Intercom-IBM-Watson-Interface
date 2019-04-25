@@ -1,0 +1,4297 @@
+{
+  "name": "McWellness",
+  "intents": [
+    {
+      "intent": "Sunshower",
+      "examples": [
+        {
+          "text": "Was ist eine Sun Shower"
+        },
+        {
+          "text": "Zum einen, könnt ihr mir erklären was die sunshower genau ist??"
+        },
+        {
+          "text": "Was ist eine Sonnendusche ?"
+        },
+        {
+          "text": "Hi! Was ist die sunshower? Ein Solarium ?"
+        },
+        {
+          "text": "Was genau ist diese Sunshower ?"
+        }
+      ],
+      "description": "Was ist die Sunshower?"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Stellen Sie mich zu einem aktiven Agenten durch."
+        },
+        {
+          "text": "Haben Sie eine reale Person, mit der ich sprechen kann?"
+        },
+        {
+          "text": "Hallo Tom. Können Sie bitte meinen Anruf an einen menschlichen Agenten weiterleiten? Ich möchte direkt mit einem Menschen zu sprechen."
+        },
+        {
+          "text": "Ich möchte gerne dass mir ein Kundenbetreuer hilft"
+        },
+        {
+          "text": "Bitte leiten Sie an eine Person weiter."
+        },
+        {
+          "text": "Das ist zu frustrierend, ich möchte mit einer echten lebenden Person sprechen."
+        },
+        {
+          "text": "Dies ist das dritte Mal, dass ich versucht habe, mit dir zu sprechen, und jetzt leitest du mich an einen Roboter weiter"
+        },
+        {
+          "text": "Es ist schon nach 22 Uhr, aber es gibt einen Notfall, kann ich mit einer echten Person sprechen?"
+        },
+        {
+          "text": "Benutzer möchte mit einem menschlichen Kundendienstmitarbeiter sprechen"
+        },
+        {
+          "text": "Bitte verbinden Sie mich mit einem menschlichen Vertreter, der auch fließendes Englisch spricht."
+        },
+        {
+          "text": "Bitte helfen Sie mir bei der Verbindung zu einem Vertreter"
+        },
+        {
+          "text": "Ich möchte mit dem Kundenservice chatten."
+        },
+        {
+          "text": "Ich möchte mit jemandem über eine betrügerische Handlung sprechen."
+        },
+        {
+          "text": "Ich möchte mit einem Kundendienstmitarbeiter sprechen. "
+        },
+        {
+          "text": "Ich versuche mit einer Person am Telefon zu sprechen, und nicht mit einer automatisierten Maschine. wie kann ich mit einer Person beim Kundendienst sprechen?"
+        },
+        {
+          "text": "Ich würde gerne mit einem richtigen Mitarbeiter sprechen, bitte."
+        },
+        {
+          "text": "Ja gib mir einen verdammten Agenten"
+        },
+        {
+          "text": "Lass mich mit einem menschlichen Agenten zu sprechen."
+        },
+        {
+          "text": "welche Nummer muss ich wahlen um mit einem Menschen zu sprechen?"
+        },
+        {
+          "text": "mitarbeiter"
+        }
+      ],
+      "description": "Fordern Sie einen menschlichen Agenten an."
+    },
+    {
+      "intent": "Membercard",
+      "examples": [
+        {
+          "text": "Hallo zusammen, bekomme ich die Wellnesscard, wenn ich das erste mal bei euch bin? Oder muss ich diese vorher bestellen? Danke :-)"
+        },
+        {
+          "text": "Guten Tag, bezahlt man die McWellness-Card vor Ort ? denn bei der Buchung wurden mir die Kosten der Card nicht berechnet."
+        },
+        {
+          "text": "Hallo, ich hab mal eine kurze Frage. Muss ich meine Karte sperren lassen, wenn ich sie verloren habe? Bin mir zwar nicht ganz sicher ob ich es verloren habe, aber als allgemeine Info "
+        },
+        {
+          "text": "Welche Kosten kommen einmalig für die Wellness Card auf mich zu?"
+        },
+        {
+          "text": "Tag zusammen! Ich habe am kommenden Samstag eine Buchung in Köln und sehe JETZT erst, dass man dafür diese McWellness Karte braucht. Wo bekomme ich die denn her, wenn ich vorher keine Gelegenheit habe, in eine der Filialen zu kommen?"
+        },
+        {
+          "text": "Hallo, können Sie mir sagen wie hoch die Gebühr für eine Wellnesscard ist?"
+        },
+        {
+          "text": "Ok super danke :) und wie sieht es mit der mitgliedskarte aus?"
+        },
+        {
+          "text": "Muss ich die Memberkarte kaufen?"
+        },
+        {
+          "text": "Kann man die Membercard mit nach Hause nehmen?"
+        },
+        {
+          "text": "Was ist eine Membercard?"
+        },
+        {
+          "text": "Was ist eine Memberkarte?"
+        },
+        {
+          "text": "Wofür brauche ich eine Membercard?"
+        },
+        {
+          "text": "Wie viel kostet eine Membercard?"
+        },
+        {
+          "text": "Ich habe noch keine Memberkarte. Bekomme ich diese in der Filiale?"
+        },
+        {
+          "text": "Woher bekomme ich meine Membercard"
+        },
+        {
+          "text": "Hallo liebes Team:) kann man die Prepaidkarte nur vor Ort bekommen, oder kann man sie auch vorher kaufen und direkt für den ersten Besuch nutzen?"
+        }
+      ],
+      "description": "Was ist eine Membercard?"
+    },
+    {
+      "intent": "Zahlungsmoglichkeiten",
+      "examples": [
+        {
+          "text": "Hall was für Zahlungsmittel hat man"
+        },
+        {
+          "text": "Guten Morgen kann man bei euch mit Karte zahlen?"
+        },
+        {
+          "text": "Steht bei euch auch die zahlungsart Überweisung zur Verfügung"
+        },
+        {
+          "text": "Kann ich mit Kreditkarte bezahlen?"
+        },
+        {
+          "text": "Welche Zahlungsmöglichkeiten gibt es?"
+        },
+        {
+          "text": "Kann ich per Rechnung bezahlen?"
+        },
+        {
+          "text": "Kann ich bar zahlen ?"
+        },
+        {
+          "text": "Kann ich per Lastschrift bezahlen?"
+        },
+        {
+          "text": "100133883 Buchungsnummer  Hallo, kann ich den Betrag an dem Termin in der Filiale bezahlen?  Grüße "
+        },
+        {
+          "text": "hallo ich möchte gerne für heute abend eine wellness suite buchen wäre das möglich die vor ort zu bezahlen"
+        },
+        {
+          "text": "Hallo, ich habe eine Frage zur Bezahlung mit Kreditkarte. Erfolgt diese dann vor Ort?"
+        }
+      ],
+      "description": "kann ich auch mit Kreditkarte ZAhlen?"
+    },
+    {
+      "intent": "GenerelleFrage",
+      "examples": [
+        {
+          "text": "Ich habe eine generelle Frage"
+        },
+        {
+          "text": "Hi :) ich habe einige Fragen bezüglich eines Aufenthalts bei euch."
+        },
+        {
+          "text": "ich habe eine frage"
+        },
+        {
+          "text": "Hallo. Ich war noch nie bei Ihnen, Ihr Angebot interessiert mich jedoch sehr, daher wollte ich mal ein paar Fragen zum Ablauf stellen."
+        },
+        {
+          "text": "Hallo! Ich hätte eine allgemeine Frage. Mit freundlichen Grüßen "
+        },
+        {
+          "text": "Guten Tag, ich habe zwei Fragen:"
+        },
+        {
+          "text": "Hallo zusammen, Ich interessiere mich für einen Gutschein und habe noch ein paar Rückfragen. 😊"
+        },
+        {
+          "text": "Ich hab da mal ne frage"
+        },
+        {
+          "text": "ich wprde gerne was buchen und habe 1-2 fragen"
+        },
+        {
+          "text": "ich habe eine Frage zu einer Buchung die heute stattfindet"
+        }
+      ],
+      "description": "Ich habe eine generelle Frage"
+    },
+    {
+      "intent": "SpeisenUndGetränke",
+      "examples": [
+        {
+          "text": "ich habe hunger"
+        },
+        {
+          "text": "Ich bin vegetarier, habt ihr was für mich?"
+        },
+        {
+          "text": "Habt ihr vegetarisches oder veganes Essen?"
+        },
+        {
+          "text": "Habt ihr Obstspieße?"
+        },
+        {
+          "text": "Habt ihr Salate?"
+        },
+        {
+          "text": "Was habt ihr alles auf der Karte?"
+        },
+        {
+          "text": "Was kann ich bei euch bestellen?"
+        },
+        {
+          "text": "Habt ihr was zu Essen?"
+        },
+        {
+          "text": "Gibt es bei euch was zu trinken?"
+        },
+        {
+          "text": "Habt ihr Cocktails?"
+        },
+        {
+          "text": "Welche Speisen und Getränke bietet ihr an?"
+        },
+        {
+          "text": "Was habt ihr an Essen und Trinken?"
+        },
+        {
+          "text": "Hallo mich würde es mal interssieren,ob man die Getränke und Snacks im Preis mit inbegriffen ist oder seperat dann bezahlt werden muss."
+        },
+        {
+          "text": "Hallo haben sie auch soetwas wie eine Speisekarte für den Aufenthalt ?"
+        },
+        {
+          "text": "Welche Bier Sorten habt ihr im Angebot?"
+        },
+        {
+          "text": "Hallo, haben Sie eine Speißekarte ? "
+        },
+        {
+          "text": "Hallo, eine kurze Frage. wenn ich Die Superior-Suite buche, sind da Snacks und Drinks inklusive oder kosten diese extra? wenn ja gibt es eine Karte wo man sehen kann was es gibt bzw was es kostet??"
+        },
+        {
+          "text": "huhu. ich würde gern einen Arrangement Geschenkgutschein kaufen. Hab ich dann die Möglichkeit vor Ort noch zb Getränke, Snacks dazu zu buchen? LG Kristina"
+        },
+        {
+          "text": "Hallo, was kann man bei ihnen a rezeption alles bestellen für die suit? Auch shampoo ect?"
+        },
+        {
+          "text": "Habt ihr auch Bier?"
+        },
+        {
+          "text": "habt ihr essen"
+        }
+      ],
+      "description": "Welche Speisen und Getränke bietet ihr an?"
+    },
+    {
+      "intent": "WoGibtEsDampfsauna",
+      "examples": [
+        {
+          "text": "Gibt es in allen Filialen eine Dampfsauna?"
+        },
+        {
+          "text": "Hallo, in welchen Filialen ann ich ein Dampfnad buchen?"
+        },
+        {
+          "text": "Hey, in welcher Kategorie finde ich das Dampfbad? Gibt es das in allen Filialen?Gruß Patrick"
+        },
+        {
+          "text": "Gibt es in Dortmund eine Dampfsauna?"
+        },
+        {
+          "text": "In welchen Suite typen gibt es ein Dampfbad?"
+        },
+        {
+          "text": "Gibt es in allen Suiten eine Dampfsauna?"
+        },
+        {
+          "text": "Gibt es in Bochum ein Dampfbad?"
+        },
+        {
+          "text": "Wo habt ihr ein Dampfbad?"
+        },
+        {
+          "text": "Wo gibt es eine Dampfsauna?"
+        }
+      ],
+      "description": "Wo gibt es eine Dampfsauna?"
+    },
+    {
+      "intent": "AppInWelchenFilialen",
+      "examples": [
+        {
+          "text": "In welchen Filialen gibt es die App?"
+        },
+        {
+          "text": "Wo habt ihr überall die App?"
+        },
+        {
+          "text": "Hallo, gibts es in der Filiale in Bochum auch Appsteuerung ?"
+        }
+      ],
+      "description": "In welchen Filialen gibt es die App?"
+    },
+    {
+      "intent": "DoItYourself",
+      "examples": [
+        {
+          "text": "Hallo zusammen, ich wollte einen Gutschein bei Euch mit der \"do-it-yourself\" - Funktion erstellen und wollte Fragen, ob da auch der Wert draufsteht? Weil ich hätte gerne einen Gutschein wo der Wert nicht direkt erkennbar ist, habt ihr sowas überhaupt? Vielen Dank!! :-)"
+        },
+        {
+          "text": "Guten Morgen, Ich habe eine Kurze Frage: Ich würde gerne einen Gutschein verschenken. Nun weiß ich aber, dasss die zu beschenkende Person kein riesen Sauna Fan ist, Daher würde ich gerne auf das Dampfbad zurück greifen. Dieses kann ich aber bei den \" Do it Yourself\" gutescheinen nicht anwählen. Muss ich also einen Anderen Gutschein auswählen ? Liebe Grüße Annika"
+        },
+        {
+          "text": "Wie funktioniert ein Do It Yourself Gutschein?"
+        },
+        {
+          "text": "Guten Tag🙈 ich schon wieder🙈 hab da noch eine Frage, beim Do-it Yorself Gutschein, steht dann alles im Gutschein drin, was man gebucht hat? Oder woher wissen die Beschenkten, was sie erwartet? Wir jede Buchoption aufgelistet? Lg"
+        },
+        {
+          "text": "Hallo, wenn ich einen Do-It-Yourself Gutschein verschenke, stellt das eine Art Wertgutschein dar oder? Also vor Ort können dann immer noch Dinge dazu gebucht werden (Getränke, Snacks, Handtücher)? "
+        }
+      ],
+      "description": "Wie funktioniert ein Do It Yourself Gutschein?"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Moin"
+        },
+        {
+          "text": "Schönen guten Tag,"
+        },
+        {
+          "text": "Hallo, wie ist Ihr Name?"
+        },
+        {
+          "text": "Hallo Watson. Guten Morgen!"
+        },
+        {
+          "text": "Hallo Moto"
+        },
+        {
+          "text": "guten Tag, wie geht es Ihnen?"
+        },
+        {
+          "text": "Hast Du heute viel zu tun?"
+        },
+        {
+          "text": "Hast Du schon Fruehstueck gehabt ?"
+        },
+        {
+          "text": "Ich möchte anfangen."
+        },
+        {
+          "text": "Sei tausendmal gegrüßt!"
+        },
+        {
+          "text": "Sprechen wir kurz ?"
+        },
+        {
+          "text": "Seit wann arbeitest du heute?"
+        },
+        {
+          "text": "hallo"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "guten morgen"
+        },
+        {
+          "text": "Hallöchen "
+        },
+        {
+          "text": "das ist ein test"
+        },
+        {
+          "text": "Morgen"
+        },
+        {
+          "text": "Hallo liebes McWellness – Team!"
+        },
+        {
+          "text": "Liebes Team,"
+        },
+        {
+          "text": "Sehr geehrte Damen und Herren, "
+        },
+        {
+          "text": "Hii  🙂"
+        },
+        {
+          "text": "Hii :)"
+        },
+        {
+          "text": "Xhaallo "
+        },
+        {
+          "text": "Halllo"
+        },
+        {
+          "text": "Huhu"
+        },
+        {
+          "text": "hallo kann mir jemand weiterhelfen"
+        }
+      ],
+      "description": "Begrüße den Bot."
+    },
+    {
+      "intent": "JedeSuiteSauna",
+      "examples": [
+        {
+          "text": "In welchen Kategorien gibt es eine Sauna?"
+        },
+        {
+          "text": "In welcher Suite gibt es eine Sauna?"
+        },
+        {
+          "text": "Hat jede Suite eine Sauna?"
+        },
+        {
+          "text": "Gibt es eine Sauna in der Comfort Suite?"
+        }
+      ],
+      "description": "Hat jede Suite eine Sauna?"
+    },
+    {
+      "intent": "EigenesWC",
+      "examples": [
+        {
+          "text": "Hat jede Suite ein eigenes WC?"
+        },
+        {
+          "text": "Gibt es in Aplerbeck kei WC in der Suite?"
+        },
+        {
+          "text": "Hallo liebes MyWellness Team! Mich würde interessieren, welche Eurer Suiten in Köln-Ehrenfeld eine eigene Toilette haben! Vielen lieben Dank im Voraus! Eileen"
+        },
+        {
+          "text": "Hallo liebes Mc-Wellness Team :) .. ich war schon 3x bei Ihnen (immer Superior Suite), weil ich dachte, dass das die einzige Suite mit eigenem WC wäre .. Jetzt sehe ich auf Ihrer Homepage, dass auch in der Comfort und Deluxe Suite eigene WCs vorhanden sind. Ist das korrekt? Und ist das in jeder Ihrer Filliale so? Danke vorab für die Rückmeldung. LG, Janine Dohmen"
+        },
+        {
+          "text": "Gibt es eine Toilette in jeder Suite?"
+        },
+        {
+          "text": "Habt ihr in jeder Filiale Toiletten in den Suiten?"
+        }
+      ],
+      "description": "Hat jede Suite ein eigenes WC?"
+    },
+    {
+      "intent": "PaketBuchen",
+      "examples": [
+        {
+          "text": "Wie buche ich Luxus im Alltag?"
+        },
+        {
+          "text": "Wie kann ich das Beste Freundin Paket buchen?"
+        },
+        {
+          "text": "Hallo, Wie kann man das Winterspecial nutzen? Bzw buchen?"
+        },
+        {
+          "text": "Hallo, Kann man schon bei der Buchung zusätzliche Dinge auswählen, wie die Kerzen und Rosenblätter? Ich kann immer nur die Zeit und Datum auswählen?"
+        },
+        {
+          "text": "ich möchte gern zusätzlich zu meinem Aufenthalt mit der Buchungsnummer 100160143 das Candle light Paket dazubuchen."
+        },
+        {
+          "text": "Hallo ich habe eine Frage. Mein Mann hat für den 8.12.2018 in Dortmund Mitte eine supersuite gebucht. Ich würde ihn gerne überraschen und würde gerne noch Kerzen rosenblätter und so dazu bestellen. Ich würde das gerne aber auch vorab bezahlen. Geht das irgendwie ihn dass ich zu euch komme? "
+        },
+        {
+          "text": "Hallo zusammen, gibt es die Möglichkeit ein Arrangement im nachhinein dazu buchen?"
+        },
+        {
+          "text": "Hallo, es gab mal Candle-light Angebote. Gibt es die nicht mehr?"
+        },
+        {
+          "text": "Hallo schönen guten Tag ich habe eine Frage ich habe soeben das candle light wellness gebucht kann ich da noch Handtücher und Bademäntel bei buchen oder geht das nicht mit freundlichen Grüßen"
+        },
+        {
+          "text": "Wie kann ich ein Paket buchen?"
+        },
+        {
+          "text": "Hallo, ich würde gerne meinem Freund zu Weihnachten asl Gutschein das Angebot Winter Arrangment schenken. Wie kann ich das hier finden?"
+        },
+        {
+          "text": "Möchte ein Geschenkgutschein für das Winter Wellness Arrangement mit dem Ben und Jerrys usw wie bekomme ich das"
+        },
+        {
+          "text": "Hey ich habe einen Gutschein luxus im alltag 4 std Superior suite und wollte mal fragen wie ich es buchen kann"
+        },
+        {
+          "text": "Guten Tag.Ich bräuchte einmal Ihre Hilfe.Ich wollte ein beste  Freundinnenpaket kaufen.Kann ich dieses auch schon direkt für den 14.12.18 Buchen? Oder muss ich erst den Gutschein kaufen und danach dann gucken?"
+        }
+      ],
+      "description": "Wie kann ich ein Paket buchen?"
+    },
+    {
+      "intent": "DuVerstehstMichNicht",
+      "examples": [
+        {
+          "text": "Du verstehst einfach nicht was ich meine"
+        },
+        {
+          "text": "Hallo. Erhalte ich dazu noch eine passende Antwort?"
+        },
+        {
+          "text": "Das ist nicht die antwort auf meiner frage"
+        },
+        {
+          "text": "Du verstehst mich nicht"
+        },
+        {
+          "text": "Das war nicht meine Frage"
+        }
+      ],
+      "description": "Du verstehst mich nicht"
+    },
+    {
+      "intent": "GutscheinNichtAngekommen",
+      "examples": [
+        {
+          "text": "Mein Gutschein ist nicht angekommen"
+        },
+        {
+          "text": "Ich habe einne Gutschein bestellt und er ist nie angekommen"
+        },
+        {
+          "text": "Hallo Marina, ich hatte kürzlich Geburtstag und wollte soeben meinen Gutschein einlösen, den Ihr mir zugesendet habt. Leider konnte ich ihn in meinem E-Mail Postfach nicht wiederfinden. Vielleicht ist er ausversehen irgendwo hingerutscht, wohin er nicht sollte. Wäre es möglich und Ihr so freundlich und könntet ihn mir erneut zukommen lassen? Herzliche Grüße, Victoria Damianowa, <a href=\"mailto:vicky@gmx.net\" rel=\"nofollow\" target=\"_blank\">vicky@gmx.net</a>"
+        },
+        {
+          "text": "Hallo :) Ich habe gestern über eure Internetseite einen Gutschein \"Entspannung für Zwei\" im Wert von 112,00 € gekauft. Jedoch habe ich bis jetzt keine Bestätigungsmail mit dem Gutschein erhalten. "
+        },
+        {
+          "text": "Guten Morgen, ich habe gestern über eure Internetseite einen Gutschein bestellt \"Erholung für Zwei\". Jedoch habe ich bis jetzt keine Bestätigungsmail mit dem Gutschein erhalten. "
+        },
+        {
+          "text": "Heeey, ich habe mal eien Frage ich habe am 30.11. vormittags bei Euch einen Gutschein bestellt (Bestellnummer 6900038499) ich wollte nu Fragen, ob der bei Euch schon raus ist und wann ich circa mit dem rechnen kann? Vielen lieben Dank! :)"
+        },
+        {
+          "text": "ich habe meinen gutschein verloren"
+        },
+        {
+          "text": "Guten Morgen. Ich habe für meine Schwiegermutter und ihren Mann bei ihnen gebucht . Leider haben wir bisher noch nichts erhalten ( ich dachte die Karten werden per Post zu geschickt) ich weiss auch leider die Uhrzeit nicht mehr . Können sie mir bitte helfen "
+        },
+        {
+          "text": "Hallo, ich habe einen Gutschein bestellt und er ist immer noch nicht angenommen.."
+        },
+        {
+          "text": "ich habe ein kleines Problem. Letztes Jahr musste ich meinen Termin stornieren und habe ein Gutscheincode zugeschickt bekommen. Leider wurden alle älteren Mails automatisch gelöscht. Könnte Sie mir diesen Gutscheincode nochmal zukommen lassen bitte? Meine e-Mail lautet: oezdemirneslihan@web.de"
+        },
+        {
+          "text": "Hallo, ich habe gestern das Gutscheinpaket \"Entspannen zu zweit\" bei ihnen gekauft und per Paypal bezahlt. Allerdings habe ich immer noch keine Kaufbestätigung oder den Gutschein per E-Mail bekommen. Auf meine E-Mail habe ich auch keine Antwort bekommen und telefonisch erreiche ich auch niemanden. Können Sie mir da weiterhelfen?  mfg Sören Hahn"
+        },
+        {
+          "text": "Hallo MCWellness Team. Ich habe vor wenigen Minuten einen Gutschein bestellt. Während des Fensters \"Buchungsbestätigung in Arbeit\" brach allerdings meine Internetverbindung zusammen. Können sie bitte checken, ob bereits ein Gutschein für Julian Zunft vorliegt und ihn mir zukommen lassen? Ansonsten werde ich es noch einmal probieren über die Gutschein Bestellung"
+        },
+        {
+          "text": "Hallo ich habe eine Frage. Ich habe vor kurzem einen McWellness Gutschein gekauft &amp; das Geld wurde letzte Woche Montag auch schon von meinem Konto abgebucht. Bis jetzt habe ich aber noch keine E-Mail mit dem Gutschein bekommen. Wie lange dauert es normalerweise bis eine E-Mail ankommt oder wie könnte ich das Geld wieder bekommen? "
+        }
+      ],
+      "description": "Hallo, ich habe einen Gutschein bestellt und er ist immer noch nicht angenommen.."
+    },
+    {
+      "intent": "Preise",
+      "examples": [
+        {
+          "text": "Hallo, würde gerne für morgen 15:00 Uhr 2 Stunden für 2 Personen buchen. Wie teuer wäre das dann insgesamt?"
+        },
+        {
+          "text": "Hallo, ich möchte gerne meinen 30 Geburtstag mit ein paar Mädels feiern. Eig wären wir zu acht. Sind die Suiten auf maximal 4 Leute begrenzt? Ich würde gerne die superior suit buchen oder wenn möglich 2 zusammen oder nebeneinander liegende Suiten wenn eine nicht ausreicht. Was würde das ca. Kosten für 3 Stunden? "
+        },
+        {
+          "text": "Hallo habe eine frage wieviel kostet die comfort für 2 Personen ? "
+        },
+        {
+          "text": "Guten Tag und zwarwollte ich mal fragen wie teuer so eine wellness karte ist zum einchecken und ob es gutscheine gibt für weihnachten zum verschenken. "
+        },
+        {
+          "text": "Hallo ich interessiere mich für ein Wochenende mit meiner Frau bei Ihnen zu nächtigen. Ich würde gerne eine Preisliste haben. Ich habe hier keine gefunden. Wir wohnen in Köln Danke im voraus"
+        },
+        {
+          "text": "Hi eure Preisliste"
+        },
+        {
+          "text": "Kostet es mehr wenn man alleine kommt"
+        },
+        {
+          "text": "Was würde es kosten ein Raum zu mieten"
+        },
+        {
+          "text": "Guten tag würde gerne superior suit buchen für zwei.. 3 stunden aber ich komme nicht wirklich zu recht mit der Buchung und würde gerne wissen was es kostet für 2 Person 3 Stunden die suit"
+        },
+        {
+          "text": "Hallo , ich habe interesse meinem partner zu überraschen und zwar unser Jahrestag möchte ich gerne mal so einen wellness tag mit ihm machen. wie läuft das ab wie sind die angebote oder preise ? "
+        },
+        {
+          "text": "Guten Tag ich habe eine Frage zu den Preisen. Das verstehe ich nicht ganz."
+        },
+        {
+          "text": "Hallo habe mal ne frage für zwei personen in der Deluxe suit für 4 std mit Snacks und trinken wie teier wäre das ?"
+        },
+        {
+          "text": "Wie sind die Preise?"
+        },
+        {
+          "text": "Wie viel kostet das pro Stunde?"
+        },
+        {
+          "text": "Wie viel muss ich zahlen?"
+        },
+        {
+          "text": "Wie teuer sind eure Suiten?"
+        },
+        {
+          "text": "Wie viel kostet eine Stunde?"
+        },
+        {
+          "text": "Was kostet ein Aufenthalt bei euch?"
+        },
+        {
+          "text": "Was kostet eine Suite?"
+        },
+        {
+          "text": "Wie teuer ist eine Suite?"
+        }
+      ],
+      "description": "Wie teuer ist eine Suite?"
+    },
+    {
+      "intent": "Telefonnummer",
+      "examples": [
+        {
+          "text": "Wie lautet eure Nummer?"
+        },
+        {
+          "text": "Habt ihr eine Telefonnummer?"
+        },
+        {
+          "text": "Welche Nummer habt ihr?"
+        },
+        {
+          "text": "Wie kann ich euch anrufen?"
+        },
+        {
+          "text": "Wie kann ich euch erreichen?"
+        },
+        {
+          "text": "Kann man euch anrufen?"
+        },
+        {
+          "text": "Wie lautet eure Telefonnummer?"
+        },
+        {
+          "text": "Hallo, kann ich die Filiale Dortmund Mitte telefonisch erreichen ?"
+        },
+        {
+          "text": "können wir mal telefonieren?"
+        }
+      ],
+      "description": "Wie lautet eure Telefonnummer"
+    },
+    {
+      "intent": "Adressen",
+      "examples": [
+        {
+          "text": "Haben Sie eine Filiale im Stadtteil Essen ?"
+        },
+        {
+          "text": "Wo finde ich euch in Bochum?"
+        },
+        {
+          "text": "Welche Adresse habt ihr?"
+        },
+        {
+          "text": "Wie lautet euer Standort?"
+        },
+        {
+          "text": "Wo seid ihr?"
+        },
+        {
+          "text": "Wie lauten eure Adressen?"
+        },
+        {
+          "text": "Wie ist die Adresse in Bochum?"
+        },
+        {
+          "text": "Wie ist die Adresse in Dortmund?"
+        },
+        {
+          "text": "Wir lautet die addresse der filiale in Essen?"
+        },
+        {
+          "text": "Hallo :-) Habt ihr auch Filialen bei 79111 Freiburg?"
+        }
+      ],
+      "description": "Wie ist die Adresse in Dortmund?"
+    },
+    {
+      "intent": "Wellnessbox",
+      "examples": [
+        {
+          "text": "Hallo liebes McWellness Team, ich habe bei Instagram eure Wellnessbox gesehen. Kann man die auch online kaufen, dass ihr die versendet? Oder kann ich die nur in euren Filialen erwerben? Liebe Grüße"
+        },
+        {
+          "text": "Weihnachts Geschenkbox"
+        },
+        {
+          "text": "Muss ich in die Filiale kommen um das Weihnachtspaket zu kaufen?"
+        },
+        {
+          "text": "verschickt ihr die box auch ?"
+        },
+        {
+          "text": "Hallo, ihr werbt für eine kleine GeschenkBox die es zu kaufen gibt. Wo kann ich diese bestellen? "
+        },
+        {
+          "text": "Hallo, ich habe eine Frage ich habe eben gesehen das es ab Montag eine Mc Wellness Box geben wird, darf man diese Produkte dann auch mit in die Suite nehmen oder sind diese nur für zu Hause gedacht ? Lg Laura"
+        }
+      ],
+      "description": "Weihnachtsbox"
+    },
+    {
+      "intent": "Dekorieren",
+      "examples": [
+        {
+          "text": "Hallo, wir haben am 26.1 um 22 Uhr bei euch in Dortmund gebucht auf den Namen Leineweber. Da meine Freundin Geburtstag hat, ist die Frage ob ihr da etwas Dekorieren könntet oder es sonstige spezials gibt danke im voraus"
+        },
+        {
+          "text": "Könnt ihr meine Suite dekorieren?"
+        }
+      ],
+      "description": "Könnt ihr meine Suite dekorieren?"
+    },
+    {
+      "intent": "RabattcodeUngueltig",
+      "examples": [
+        {
+          "text": "Guten Tag, habe einen 3 Std. supperior suit Gutschein für 2 Personen und wollte den für Köln-Ehrenfeld verwenden. Bei der Buchung kommt immer die Melsung: Rabattcode nicht gültig. Wie kann das?"
+        },
+        {
+          "text": "Wieso ist mein Rabattcode ungültig?"
+        },
+        {
+          "text": "Hallo, wieso wird bei meinem Rabattcode ungültig angezeigt?"
+        },
+        {
+          "text": "Guten Tag, mir hat das Kundenmanagement folgenden Rabatcode zugesendet, der bei der Eingabe leider nicht funktioniert: SPKYP-W6EWAJSW6Q"
+        },
+        {
+          "text": "ich wollte gestern eine Buchung vornehmen - allerdings wurden meine Gutscheine nicht erkannt?! Gibt es dort momentan Probleme oder muss ich die woanders eingeben als unter „Rabatt-Code“?"
+        },
+        {
+          "text": "Hallo ihr lieben, ich habe gerade meine Buchungen storniert und wollte einen neuen Termin mit dem Ticket Code auswählen und bezahlen hier wird mir leider immer gesagt, dass der Code nicht glültig ist. Könntet ihr mir bitte weiterhelfen?"
+        },
+        {
+          "text": "Hallo liebes McWellness-Team, ich habe einen Gutschein geschenkt bekommen als Ausdruck mit einem Barcode drauf. Online wollte ich nun eine entsprechende Suite buchen. Als Rabattcode wird der Gutscheincode allerdings nicht angenommen, wie kann ich den Gutschein dann als Zahlungsmethode angeben? LG, Annika"
+        },
+        {
+          "text": "Hallo, ich kann leider meinen Ticketcode nicht nutzen"
+        },
+        {
+          "text": "Hallo, ich habe eine Gutscheinkarte von der Sparkasse. Ich habe versucht die Nummer der Karte bei Rabatt bei der buchung einzugeben. Das klappt aber nicht. VG Volker Wobbe"
+        },
+        {
+          "text": "Guten morgen 🌞 habe ein Ticket Guthaben und möchte das einlösen inkl neuer Buchung , funktioniert aber nicht beim Buchungsprozess"
+        }
+      ],
+      "description": "Wieso ist mein Rabattcode ungültig?"
+    },
+    {
+      "intent": "Rauchen",
+      "examples": [
+        {
+          "text": "Darf man in der Suite rauchen?"
+        },
+        {
+          "text": "Ist das rauchen erlaubt?"
+        },
+        {
+          "text": "Meine Frage wäre jetzt, da mein Mann Raucher ist, ob es eventuell einen Raucherbereich gibt?Danke im voraus LG Angela Havestadt"
+        },
+        {
+          "text": "Darf ich bei euch Gras rauchen?"
+        },
+        {
+          "text": "Habt ihr ein Rauchverbot?"
+        },
+        {
+          "text": "Kann ich in der Filiale rauchen?"
+        }
+      ],
+      "description": "Ist das Rauchen erlaubt?"
+    },
+    {
+      "intent": "SpeisenImVoraus",
+      "examples": [
+        {
+          "text": "Kann man Essen vorbestellen?"
+        },
+        {
+          "text": "Können Bestellungen von Getränken und Snacks im Voraus aufgegeben werden?"
+        },
+        {
+          "text": "Schönen guten Tag ich wollte Nachfragen ob es auch möglich ist das essen und die Getränke schon vorab zu Buchen oder reicht es wenn man das vor Ort macht."
+        },
+        {
+          "text": "Guten Tag. Am 25.01. kommen wir zu zweit in die Filiale in Bochum. Könnten wir noch was hinzu buchen?"
+        },
+        {
+          "text": "Kann ich Vocktails vorbestellen?"
+        },
+        {
+          "text": "Kann ich bereits vor meiner Buchung Getränke bestellen?"
+        }
+      ],
+      "description": "Können Bestellungen von Getränken und Snacks im Voraus aufgegeben werden?"
+    },
+    {
+      "intent": "KannMichNichtAnmelden",
+      "examples": [
+        {
+          "text": "Ich habe mein Login vergessen"
+        },
+        {
+          "text": "Ich kann mich nicht in meinem Kundenkonto anmelden"
+        },
+        {
+          "text": "Ich komme nicht in mein Konto"
+        },
+        {
+          "text": "Ich habe mein Passwort vergessen"
+        },
+        {
+          "text": "Wie ist mein Passwort?"
+        },
+        {
+          "text": "Ich weiß mein Passwort nicht mehr"
+        },
+        {
+          "text": "Ich kann mich nicht mehr einloggen"
+        },
+        {
+          "text": "Ich weiß meine Anmeldedaten nicht mehr"
+        },
+        {
+          "text": "Wo kriege ich ein neues Passwort her"
+        }
+      ],
+      "description": "Ich kann mich nicht in meinem Kundenkonto anmelden"
+    },
+    {
+      "intent": "Mindestalter",
+      "examples": [
+        {
+          "text": "Hallo. ich würde gerne meinem Freund ein Aufenthalt bei euch zu Weihnachte schenken. Das Problem ist, dass wir beide erst 16 Jahre alt sind. Können wir vielleicht mit der Unterschrift eines Beziehungsberechtigen trotzdem kommen oder nicht?"
+        },
+        {
+          "text": "kann man Kind (1J.) mitnehmen"
+        },
+        {
+          "text": "Kann ich die Suiten auch als Minderjähriger mieten?"
+        },
+        {
+          "text": "Hallo, ich habe eine Frage. Geht das wenn mein Freund 19 ist und ich 17? 😊"
+        },
+        {
+          "text": "Hallo, würde gerne mit meiner Tochter 10 Jahre alt eine Stunde bei Ihnen buchen. Ist das möglich? Oder ist sie zu klein."
+        },
+        {
+          "text": "ich bin 17 und mein freund 18. dürfen wir zu euch?"
+        },
+        {
+          "text": "Hallo, ist es in keinem Fall möglich eine Suite schon unter 18 Jahren zu buchen?"
+        },
+        {
+          "text": "Hallo, kann ich meinen 9 Monate Sohn mitnehmen"
+        },
+        {
+          "text": "Ist es möglich eine Suite zu reservieren, wenn man noch nicht 18 ist, die Reservierung aber über ein Elternteil läuft?"
+        },
+        {
+          "text": "Ich bin 18 und mein Freund 21"
+        },
+        {
+          "text": "Brauche ich ein muttizettel mit 17?"
+        },
+        {
+          "text": "Hallo. Kann ich auch mit meinem Sohn kommen?"
+        },
+        {
+          "text": "ich bin minderjährig. darf ich zu euch?"
+        }
+      ],
+      "description": "Wie alt muss ich sein?"
+    },
+    {
+      "intent": "Duschen",
+      "examples": [
+        {
+          "text": "Gibt es Duschen in den Suiten?"
+        },
+        {
+          "text": "Dusche ich vor oder nach dem Aufenthalt ?"
+        },
+        {
+          "text": "Hallo,  hat man dann auch die Möglichkeit nach dem Aufenhalt zu duschen oder in der Suite selbst?"
+        }
+      ],
+      "description": "Sind Duschen in den Suiten?"
+    },
+    {
+      "intent": "SaunaAufgüsse",
+      "examples": [
+        {
+          "text": "Was kosten Saunaaufgüsse?"
+        },
+        {
+          "text": "Guten Morgen, ich wollte kurz nachfragen, ob bei dem Do-it-yourself-Gutschein auch schon ein Saunaaufguss mit enthalten ist. Leider sehe ich das dort nirgends."
+        },
+        {
+          "text": "Guten Tag. Ich möchte gerne eine Suite mit einem Arrangement buchen. Bei dem Arrangement steht, dass ein Saunaufguss inkl. ist. Bei den Wellness-Extras steht jedoch, dass zu jeder Wellnessstunde ein Saunaaufguss gratis zusteht. Heißt das, dass bei einem 4-stündigen Aufenthalt 4 Saunaaufgüsse ausgewählt werden können oder wie ist es zu verstehen?"
+        },
+        {
+          "text": "Hallo, ist bei den Do-it-yourself Gutscheinen auch ein Saunaaufguss dabei?"
+        },
+        {
+          "text": "kann man sauna aufgüsse extra dazu buchen"
+        },
+        {
+          "text": "Wie viele Aufgüsse bekommt man?"
+        },
+        {
+          "text": "Wie viele aufgüsse gibt es ?"
+        }
+      ],
+      "description": "Wie viele Aufgüsse bekommt man?"
+    },
+    {
+      "intent": "Altersgrenzen",
+      "examples": [
+        {
+          "text": "Wie alt darf man maximal sein?"
+        },
+        {
+          "text": "Wie alt muss ich sein?"
+        },
+        {
+          "text": "Wie alt muss man sein?"
+        },
+        {
+          "text": "Ab wie viel Jahren darf man zu euch?"
+        },
+        {
+          "text": "Ab wie vielen Jahren darf man buchen?"
+        },
+        {
+          "text": "Ich möchte gerne einen Aufenthalt buchen. Allerdings wollen wir unsere beiden Kinder ( 2Jahre / 9 Monate ) mitnehmen. Ist dies Möglich? undwie gebe ich die Kinder bei der Buchung an? Trage ich bei Personen 2 ein?"
+        },
+        {
+          "text": "darf man auch als alter Sack zu euch"
+        },
+        {
+          "text": "Mit welchem Alter darf man zu euch?"
+        }
+      ],
+      "description": "Wie alt muss man sein?"
+    },
+    {
+      "intent": "FilialeAndern",
+      "examples": [
+        {
+          "text": "Ich möchte die Filiale ändern"
+        }
+      ],
+      "description": "Ich möchte die Filiale ändern"
+    },
+    {
+      "intent": "Bilder",
+      "examples": [
+        {
+          "text": "Habt ihr Bilder von den Filialen?"
+        },
+        {
+          "text": "Habt ihr Bilder von den Suiten?"
+        },
+        {
+          "text": "Habt ihr auch bilder?"
+        },
+        {
+          "text": "habebn sie eine galerie mit den bildern"
+        },
+        {
+          "text": "Kann ich mir die Suiten angucken?"
+        },
+        {
+          "text": "Habt ihr Fotos von den Suiten?"
+        },
+        {
+          "text": "Kann ich mir irgendwo eure Suiten anschauen?"
+        },
+        {
+          "text": "Kann ich Fotos von euch sehen?"
+        }
+      ],
+      "description": "Habt ihr Bilder von den Suiten?"
+    },
+    {
+      "intent": "Gesundheitsrisiken",
+      "examples": [
+        {
+          "text": "Ist ein Besuch schädlich für meine Gesundheit?"
+        },
+        {
+          "text": "Gibt es Gesundheitsrisiken?"
+        },
+        {
+          "text": "Welche Gesundheitsrisiken gibt es?"
+        }
+      ],
+      "description": "Gibt es Gesundheitsrisiken?"
+    },
+    {
+      "intent": "inXminuten",
+      "examples": [
+        {
+          "text": "Ist in 5 Minuten noch was frei?"
+        },
+        {
+          "text": "Ist in einer Stunde noch was frei?"
+        },
+        {
+          "text": "Ist in 10 Minuten eine Suite frei?"
+        },
+        {
+          "text": "Kann ich in 10 Minuten buchen?"
+        },
+        {
+          "text": "3 Stunden"
+        }
+      ],
+      "description": "Ist in X minuten noch was frei?"
+    },
+    {
+      "intent": "Lastschrift",
+      "examples": [
+        {
+          "text": "Hallo wenn ich Lastschrift als zahlungsart auswähle wann müsste ich zahlen ?"
+        }
+      ],
+      "description": "Wann wird das Geld abgebucht?"
+    },
+    {
+      "intent": "Parkplatze",
+      "examples": [
+        {
+          "text": "Gibt es bei euch Parkplätze?"
+        },
+        {
+          "text": "Habt ihr Parkplätze?"
+        },
+        {
+          "text": "Wo kann ich parken?"
+        },
+        {
+          "text": "Guten Morgen, ich habe mal eine Frage undzwar hat man in essen rüttenscheid Park Möglichkeiten?"
+        },
+        {
+          "text": "Hallo, gibt es bei Mcwellness in essen einen eigenen Parkplatz?"
+        },
+        {
+          "text": "Hallo, könnt ihr mir einen Tipp geben, wo ich bei der Filiale Dortmund Mitte am besten parke?"
+        },
+        {
+          "text": "Ist bei euch immer was zum parken frei?"
+        },
+        {
+          "text": "Hallo - wir haben heute einen Aufenthalt in essen . Gibt es dort Park Möglichkeiten?"
+        }
+      ],
+      "description": "Gibt es bei euch Parkplätze?"
+    },
+    {
+      "intent": "BuchungsInfos",
+      "examples": [
+        {
+          "text": "wann stat mein aufenthalt?"
+        },
+        {
+          "text": "hallo ich habe gerade meine Buchung storniert und jedoch hatte ich bei der Buchung meiner email Adresse falsch eingegeben "
+        },
+        {
+          "text": "wie lange geht meine buchung?"
+        },
+        {
+          "text": "wann ist meine buchung?"
+        },
+        {
+          "text": "wo ist meine buchung?"
+        },
+        {
+          "text": "für wann habe ich gebucht?"
+        },
+        {
+          "text": "in welche filiale muss ich?"
+        },
+        {
+          "text": "für welche filiale habe ich gebucht?"
+        },
+        {
+          "text": "zu welcher filiale muss ich?"
+        },
+        {
+          "text": "wie lange habe ich gebucht?"
+        },
+        {
+          "text": "um wie viel uhr ist meine buchung?"
+        }
+      ],
+      "description": "wann ist meine buchung? wo ist meine buchung?"
+    },
+    {
+      "intent": "OffentlicheVerkehrsmittel",
+      "examples": [
+        {
+          "text": "Hallo ist es möglich die Filalie ohne Auto anzutreffen? Komme aus Hamm aber sehe keine anfahrt auf der HP"
+        }
+      ],
+      "description": "Komme ich mit Bus und Bahn zu euch?"
+    },
+    {
+      "intent": "WannZahlen",
+      "examples": [
+        {
+          "text": "Können wir vor Ort zahlen"
+        },
+        {
+          "text": "Heii kann man auch buchen ohne Paypal so das man Vorort zählt ?"
+        },
+        {
+          "text": "Morgen, kann man auch reservieren und vor ort bar bezahlen ?"
+        },
+        {
+          "text": "Guten Tag kleine Frage wenn ich jetzt Buche kann ich dann bezahlen wenn ich zu Ihnen komme !?"
+        },
+        {
+          "text": "also muss man nicht vorher überweisen?"
+        },
+        {
+          "text": "wie muss ich zahlen? Vorher oder nachher"
+        },
+        {
+          "text": "Zahle ich vorher oder nachher?"
+        },
+        {
+          "text": "Aber ich könnte über online buchen und vor Ort dann zahlen?"
+        },
+        {
+          "text": "Hallo , kann mann es auch vorort buchen und bezahlen"
+        },
+        {
+          "text": "Hallo muss man beim online buchen direkt zahlen?"
+        },
+        {
+          "text": "Huhu hab ne frage zahlt Man Vor Ort? Oder online Ich habe keine Ahnung ne Freundin hat mir es empfohlen"
+        }
+      ],
+      "description": "Zahle ich vorher oder nachher"
+    },
+    {
+      "intent": "HatteBereitsGeschrieben",
+      "examples": [
+        {
+          "text": "Ich hatte bereits geschrieben."
+        }
+      ],
+      "description": "Ich hatte bereits geschrieben."
+    },
+    {
+      "intent": "Badekleidung",
+      "examples": [
+        {
+          "text": "Guten Abend , ist der Aufenthalt in einer Suite mir Klamotten oder ohne "
+        },
+        {
+          "text": "Darf man sich dort nackt aufhalten in der suit"
+        },
+        {
+          "text": "Hallo liebes Team ist bei ihnen in den Privat suiten badekleidung pflicht ?"
+        },
+        {
+          "text": "muss ich mit badehose in den pool ?"
+        },
+        {
+          "text": "Kann ich nact in die sauna?"
+        },
+        {
+          "text": "Kann man auch nackt baden?"
+        }
+      ],
+      "description": "Kann ich auch nackt baden?"
+    },
+    {
+      "intent": "PaketEnthalten",
+      "examples": [
+        {
+          "text": "Hallo eine Frage ich habe superior dampfbad gebucht ist in dem Paket keine Sauna dabei"
+        },
+        {
+          "text": "Hallo, ich habe eine Frage bezüglich der Gutschein Pakete...bei dem Mutter Tochter Paket steht drin: 2 x Wellness-Stunden. Wie lang ist denn genau die Dauer des Aufenthaltes die der Gutschein beinhaltet?"
+        },
+        {
+          "text": "Guten Tag . Ich habe eine Frage . Ich habe einen Gutschein für zwei Stunden. Kann ich die Stunden teilen ? Zum Beispiel , dass ich jeweils an zwei verschieden Tage den Gutschein für eine Stunde nutze , statt direkt für zwei Stunden ? "
+        },
+        {
+          "text": "Hallo ich habe eine Frage bezüglich dem Mutter-Tochter Gutschein. Wie viele Stunden sind dort inbegriffen ? "
+        },
+        {
+          "text": "Hallo, wenn ich einen Gutschein „entspannt zu zwei“ bestelle, wieviele Stunden können wir dann in einem Welnessraum verbringen? "
+        },
+        {
+          "text": "Was ist in meinem Paket alles enthalten?"
+        }
+      ],
+      "description": "Was ist im Paket enthalten?"
+    },
+    {
+      "intent": "Offnungszeiten",
+      "examples": [
+        {
+          "text": "Wie sind eure Öffnungszeiten?"
+        },
+        {
+          "text": "Wie sind die Öffnungszeiten?"
+        },
+        {
+          "text": "Wann macht ihr auf?"
+        },
+        {
+          "text": "Wann schließt ihr?"
+        },
+        {
+          "text": "Um wie viel Uhr öffnet ihr?"
+        },
+        {
+          "text": "Um wie viel Uhr macht ihr auf?"
+        },
+        {
+          "text": "habt ihr morgen geöffnet?"
+        },
+        {
+          "text": "wie lange habt ihr auf"
+        },
+        {
+          "text": "habt Ihr morgen auf?"
+        },
+        {
+          "text": "Guten Morgen haben Sie an Rosenmontag geöffnet?"
+        },
+        {
+          "text": "habt ihr nächste woche geöffnet"
+        },
+        {
+          "text": "ist morgen offen"
+        },
+        {
+          "text": "Hallo , habt ihr auch am 24.12.2018 geöffnet?"
+        },
+        {
+          "text": "Von wann bis wann habt ihr auf"
+        },
+        {
+          "text": "Sonntags haben sie geöffnet oder ? Den bei der Statistik ist der Sonntag nicht erfasst."
+        }
+      ],
+      "description": "Wie sind die Öffnungszeiten?"
+    },
+    {
+      "intent": "Wellness-Stunden",
+      "examples": [
+        {
+          "text": "Hallo hab mal ne Frage 2 x Wellness-Stunden zu zweit in einer McWellness-Suite (Suitekategorie frei wählbar) ist das für 2 stunden ?"
+        }
+      ],
+      "description": "Was ist eine Wellnessstunde"
+    },
+    {
+      "intent": "Enttauescht",
+      "examples": [
+        {
+          "text": "mies"
+        },
+        {
+          "text": "blöd"
+        },
+        {
+          "text": "och man"
+        },
+        {
+          "text": "doof"
+        },
+        {
+          "text": "schade"
+        }
+      ],
+      "description": "Enttaueschte Woerter"
+    },
+    {
+      "intent": "GutscheinErwerb",
+      "examples": [
+        {
+          "text": "Hallo Ich hätte eine Frage zu den Geschenkgutscheinen. Und zwar kann man die auch in einer Filliale vor ort kaufen oder geht das nur über die Webseite?"
+        },
+        {
+          "text": "Wo kann ich Gutscheine kaufen?"
+        },
+        {
+          "text": "Ich würde gerne meinen ehemann eine delux Schenken kann ich einen gutschein hier irgendwie buchen"
+        },
+        {
+          "text": "Wo kriege ich einen Gutschein?"
+        },
+        {
+          "text": "Kann ich online einen Gutschein kaufen?"
+        },
+        {
+          "text": "Kann ich in der Filiale einen Gutschein kaufen?"
+        },
+        {
+          "text": "Kann man bei euch Geschenkgutscheine erwerben?"
+        },
+        {
+          "text": "Gibt es Gutscheine?"
+        },
+        {
+          "text": "Habt ihr Gutscheine?"
+        },
+        {
+          "text": "Hallo, ich möchte einen Gustchein verschenken. Ist es möglich, diesen in Ihrer Filiale zu bekommen?"
+        },
+        {
+          "text": "Hallo, ich wollte gerne zu Weihnachten Gutscheine verschenken muss ich die in einer Filiale holen?"
+        },
+        {
+          "text": "Hallo liebes McWellness Team würde gerne zu Weihnachten einen Gutschein von Euch verschenken, wie kann ich den kaufen, ohne diesen bei Euch persönlich zu erwerben, komme nicht aus Dortmund."
+        },
+        {
+          "text": "Hallo, würde gerne für den 4.12 zwei Stunden in der comfort Suite buchen mit Kerzen und rosenblättern für zwei Personen. Muss ich mir dafür erst einen Gutschein zusammenstellen? "
+        },
+        {
+          "text": "Ich möchte das gerne für meine Schwester habe. Damit sie mal ein bisschen Zeit für sich hat"
+        },
+        {
+          "text": "Hallo, ich möchte gerne einen Aufenthalt für meine Schwester und meinem Schwager buchen. Ich bin selber Kundin bei Ihnen, jedoch will ich die Buchung für meine Schwester und meinem Schwager. Muss ich dafür ein neues Kundenkonto anlegen oder kann ich es direkt mit meinem Konto buchen ? "
+        },
+        {
+          "text": "Hallo liebes Mc Wellness Team, das Winter-Online-Arrangement kann man das auch als Gutschein kaufen ohne direkt einen festen Termin dazu zubuchen ? "
+        },
+        {
+          "text": "Hallo ich hab da mal eine Frage wie sieht es aus mit einem Gutschein für 2 macht ihr auch sowas "
+        },
+        {
+          "text": "Hallo und guten Tag, ich brächte etwas Unterstützung bei einem Gutschein."
+        },
+        {
+          "text": "Grüßt euch kann ich auch bei euch vorbei kommen und ein Gutschein fertig stellen lassen ?"
+        },
+        {
+          "text": "Und was ist mit den Gutscheinen?"
+        }
+      ],
+      "description": "Wo kann ich Gutscheine kaufen?"
+    },
+    {
+      "intent": "DatenAndern",
+      "examples": [
+        {
+          "text": "Ich möchte meine Daten ändern"
+        }
+      ],
+      "description": "Ich möchte meine Daten ändern"
+    },
+    {
+      "intent": "SuiteKategorien",
+      "examples": [
+        {
+          "text": "Was für Suiten gibt es bei euch?"
+        },
+        {
+          "text": "Was für Suite Kategorien gibt es?"
+        },
+        {
+          "text": "Was für Suiten habt ihr?"
+        },
+        {
+          "text": "Welche Kategorien habt ihr?"
+        },
+        {
+          "text": "Welche Suiten kann ich bei euch buchen?"
+        },
+        {
+          "text": "Welche unterschiedlichen Suiten gibt es?"
+        },
+        {
+          "text": "Welche Zimmer gibt es?"
+        },
+        {
+          "text": "Was für Zimmer habt ihr?"
+        }
+      ],
+      "description": "Was für Suite Kategorien gibt es"
+    },
+    {
+      "intent": "WoUmziehen",
+      "examples": [
+        {
+          "text": "Hallo, wenn man einen Raum bucht ,muss man sich in diesem auch komplett fertig machen? Ich würde gerne danach noch eine abendveranstaltung besuchen und meine freundinn braucht ein wenig länger um sich fertig zu machen."
+        },
+        {
+          "text": "Wo zieht man sich um?"
+        }
+      ],
+      "description": "Wo zieht man sich um?"
+    },
+    {
+      "intent": "DreiPersonen",
+      "examples": [
+        {
+          "text": "Auf der webseite kann ich nur für 2 personen buchen . Wir möchten aber zu dritt kommen. geht das?"
+        },
+        {
+          "text": "Kann man auch für drei personen buchen?"
+        },
+        {
+          "text": "Dürfen wir ausnahmsweise mit drei Personen in eine zweier Suite?"
+        },
+        {
+          "text": "Kann man zu dritt in eine Suite für zwei?"
+        },
+        {
+          "text": "Wir kommen zu dritt, geht das?"
+        }
+      ],
+      "description": "Wir kommen zu dritt, geht das?"
+    },
+    {
+      "intent": "Fernsehprogramme",
+      "examples": [
+        {
+          "text": "Welche TV Programme habt ihr?"
+        },
+        {
+          "text": "Welche Fernsehprogramme habt ihr?"
+        },
+        {
+          "text": "Meine Freundin guckt gerne Bachelor. Welche Sender habt ihr?"
+        },
+        {
+          "text": "Welche Fernsehsender gibt es?"
+        }
+      ],
+      "description": "Welche Fernsehprogramme habt ihr?"
+    },
+    {
+      "intent": "Stornieren",
+      "examples": [
+        {
+          "text": "Hallo... Was pssiert wenn ich buche uned es kommt doch etwas dazwischen...Kann ich kostenfrei stornieren ?"
+        },
+        {
+          "text": "wo finde ich den Stornierungscode?"
+        },
+        {
+          "text": "Hallo... ich würde gerne meine buchung stornieren.. finde die Email aber nicht mehr "
+        },
+        {
+          "text": "Kann ich meinen Termin kostenlos absagen?"
+        },
+        {
+          "text": "Ich möchte meinen Termin absagen"
+        },
+        {
+          "text": "Ich schaffe es leider nicht, meinen Termin wahrzunehmen."
+        },
+        {
+          "text": "Ich kann leider nicht zu meinem Termin kommen"
+        },
+        {
+          "text": "Kann ich meinen Aufenthalt verschieben?"
+        },
+        {
+          "text": "Wie kann ich meinen Aufenthalt stornieren?"
+        },
+        {
+          "text": "Ich habe leider keine Zeit. Kann ich stornieren?"
+        },
+        {
+          "text": "Wie kann ich stornieren?"
+        },
+        {
+          "text": "Ich möchte stornieren"
+        },
+        {
+          "text": "Hallo, wie bekomme ich einen Stornierungscode? Wenn ich meine Buchungsnummer eingebe funktioniert das nicht. Danke für die Hilfe"
+        },
+        {
+          "text": "Hallo , hab ein problem ich kann nicht stonieren was ich gebucht habe.. "
+        },
+        {
+          "text": "Sehr geehrte Damen und Herren,<br>Ich habe bei Ihnen eine Wellness-Suite gebucht die ich wegen Krankheit stornieren muss. Leider ist auf meiner Buchungsbestätigung kein Stornierungscodd vorhanden und ich kann auch nicht über meine Buchung stornieren wie es im Internent beschrieben ist,<br>daher bitte ich Sie um Rat.<br>Mit freundlichen Grüßen <br>Shirley Kraus "
+        },
+        {
+          "text": "Guten Tag, mein Schwager hat bei Ihnen für 3 Personen gebucht und musste es wieder stornieren. "
+        }
+      ],
+      "description": "Ich möchte stornieren"
+    },
+    {
+      "intent": "Sauer",
+      "examples": [
+        {
+          "text": "SCHADE SCHLECHTER SERVICE"
+        },
+        {
+          "text": "Ich bin ssauer"
+        },
+        {
+          "text": "Ich bin sauer"
+        },
+        {
+          "text": "Ich bin total sauer"
+        }
+      ],
+      "description": "Ich bin total sauer"
+    },
+    {
+      "intent": "Hausordnung",
+      "examples": [
+        {
+          "text": "Was steht in eurer Hausordnung?"
+        },
+        {
+          "text": "Welche Regeln gelten bei meinem Aufenthalt?"
+        },
+        {
+          "text": "Hallo gibt es Aktivitäten in ihren suiten die nicht gestattet sind?"
+        },
+        {
+          "text": "Wie ist eure Hausordnung?"
+        },
+        {
+          "text": "Kann ich eure Hausordnung sehen?"
+        },
+        {
+          "text": "Welche Bedingungen gelten bei einer Buchung?"
+        }
+      ],
+      "description": "Wie ist eure Hausordnung?"
+    },
+    {
+      "intent": "Beschweren",
+      "examples": [
+        {
+          "text": "Hey ich war gestern mit meinem Freundin in Dortmund Aplerbeck [ comfort Suit ], leider waren wir nicht zufrieden.  "
+        },
+        {
+          "text": "Schönen guten Tag , ich hätte da mal eine Frage ! Was das bei Ihnen soll ? Ich bin schon 3mal nach Dortmund aplerbeck gefahren um bei Ihnen zu buchen , da ich telefonisch NIE NIEMANDEN erreiche ob ich morgens Anrufe oder mittags oder abends oder nachts ! Ich verstehe ihren Service garnicht , und beim buchen vor Ort ( wie es im Internet auch überall steht das es vor Ort geht ) wurde mir vor Ort gesagt das das nicht funktioniert und habe anschließend eine Karte mit bekommen wo man nur telefonisch oder per E-Mail buchen kann , die E-Mail Geht nicht durch und telefonisch jedesmal egal bei welcher Nummer spricht jedes Mal die Computer Anlage und das sie sich zurück melden , und noch niemand seit wochen meldet sich zurück ? "
+        },
+        {
+          "text": "Ich habe es mir schöner vorgestellt."
+        },
+        {
+          "text": "Alles viel zu teuer bei euch."
+        },
+        {
+          "text": "Eure Preise sind viel zu hoch"
+        },
+        {
+          "text": "Mein Aufenthalt war nicht schön."
+        },
+        {
+          "text": "Mir hat es bei euch nicht gefallen."
+        },
+        {
+          "text": "Ich möchte mich beschweren"
+        },
+        {
+          "text": "Ich war mit meinem Aufenthalt unzufrieden."
+        },
+        {
+          "text": "Ich komme nie wieder."
+        },
+        {
+          "text": "Alles war scheiße."
+        },
+        {
+          "text": "Die Suite war dreckig."
+        },
+        {
+          "text": "Ich möchte eine Beschwerde einlegen"
+        }
+      ],
+      "description": "Ich möchte mich beschweren"
+    },
+    {
+      "intent": "Behindertenrabatt",
+      "examples": [
+        {
+          "text": "Gibt es Rabatt für Behinderungen?"
+        },
+        {
+          "text": "Schwerbehindertenrabatt?"
+        },
+        {
+          "text": "Hallo, ich würde gerne wissen ob es für Menschen mit Schwerbehinderteausweis (in diesem Falle blind) Preisermäßigungen gibt?"
+        }
+      ],
+      "description": "Gibt es Rabatt für Behinderungen?"
+    },
+    {
+      "intent": "SuiteUnterschiede",
+      "examples": [
+        {
+          "text": "Was ist der Unterschied zwischen den Suiten? Wie unterscheiden sich diese?"
+        },
+        {
+          "text": "Was ist der Unterschied zwischen Suite 1 und 2?"
+        },
+        {
+          "text": "Welche Unterschiede gibt es zwischen Suite 1 und 2?"
+        },
+        {
+          "text": "Was ist anders zwischen Suite 1 und 2?"
+        },
+        {
+          "text": "Was hat Suite 2, dass Suite 1 nicht hat?"
+        },
+        {
+          "text": "Was ist besser, Suite 1 oder Suite 2?"
+        },
+        {
+          "text": "Suite 1 oder Suite 2"
+        },
+        {
+          "text": "Soll ich lieber Suite 1 oder Suite 2 buchen?"
+        },
+        {
+          "text": "was ist der unterschied zwischen superior und superior dampfbad"
+        },
+        {
+          "text": "was ist anders an superior und comfort"
+        },
+        {
+          "text": "was sind die suite unterschiede"
+        },
+        {
+          "text": "Hallo, ich hätte eine Frage: Was ist der Unterschied zwischen der Deluxe und der Deluxe Plus? Danke"
+        },
+        {
+          "text": "hallo, bei den gutscheinpaketen gibt es einmal die normale deluxe-suite und einmal deluxe -plus, wo liegt der unterschied?"
+        },
+        {
+          "text": "ich hab da mal ne frage zu der comfort suite in bochum. ich habe den vergleich comfort und deluxe in DO aplerbeck gelesen, dort steht in der comfort gibt es keinen abkuehlbereich, keine schwebeliege, keine durchreiche und keine individuelle beleuchtung. auf der Homepage selbst steht es genau anders. wie sieht es denn in bochum aus?"
+        },
+        {
+          "text": "Guten Tag, ich würde gerne einen gutschein verschenken und stehe jetzt vor der Frage, was der Unterschied zwischen \"Deluce\" und \"Deluxe-Plus\" ist. Nutzen würde sie das McWellness in Dortmund Mitte.<br>Beste Grüße"
+        },
+        {
+          "text": "Hallo welche Suite wäre mit der besten Ausstattung?"
+        },
+        {
+          "text": "Auf ihrer Seite stand das die Zimmer abweichen könnten"
+        },
+        {
+          "text": "Hallo habe eine kurze Frage was ist der Unterschied zwischen der deluxe-suite und der Deluxe plus Suite und gibt es die dann auch in der Kölner Filiale?"
+        }
+      ],
+      "description": "Welche Unterschiede gibt es zwischen Suite x und y"
+    },
+    {
+      "intent": "Ubernachten",
+      "examples": [
+        {
+          "text": "Kann man über Nacht bei Ihnen bleiben ?"
+        },
+        {
+          "text": "Kann man bei euch übernachten"
+        },
+        {
+          "text": "Kann man eine suite auch mit 1 Übernachtung buchen"
+        },
+        {
+          "text": "Hi, ich habe Interesse diese suit zu buchen! Ist eine Übernachtung möglich mit Frühstück?"
+        }
+      ],
+      "description": "Kann ich bei euch übernachten mit Frühstück"
+    },
+    {
+      "intent": "Ja",
+      "examples": [
+        {
+          "text": "ja"
+        },
+        {
+          "text": "auf jeden fall"
+        },
+        {
+          "text": "natürlich"
+        },
+        {
+          "text": "gerne"
+        }
+      ],
+      "description": "ja"
+    },
+    {
+      "intent": "WieWeitImVoraus",
+      "examples": [
+        {
+          "text": "Hallo, wie lange in voraus muss man ein spa buchen?"
+        },
+        {
+          "text": "Ich wollte erfragen, wie weit man im voraus für essen buchen muss"
+        },
+        {
+          "text": "Guten Abend wie weit im Voraus muss Man für essen reservieren"
+        },
+        {
+          "text": "Muss reserviert werden?"
+        }
+      ],
+      "description": "Wie weit im voraus muss man buchen?"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Könnten Sie einen Augenblick dran bleiben?"
+        },
+        {
+          "text": "Kannst du noch eine Sekunde warten?"
+        },
+        {
+          "text": "ich warte immer noch auf die Antwort"
+        },
+        {
+          "text": "Ich möchte wissen, mit welchen Dingen du mir helfen kannst."
+        },
+        {
+          "text": "Ich habe mehrere Probleme und möchte wissen, ob du mir helfen kannst."
+        },
+        {
+          "text": "Ich habe einige Probleme und möchte einige Informationen darüber, wie man Hilfe bekommen kann"
+        },
+        {
+          "text": "Ich habe einige allgemeine Abrechnungsfragen. Kannst du mir helfen?"
+        },
+        {
+          "text": "Ich brauche Hilfe, ich verstehe nicht, wie man deine mobile App benutzt."
+        },
+        {
+          "text": "Ich bin so glücklich,dass Sie jetzt funktonieren"
+        },
+        {
+          "text": "Hallo Tom, womit können Sie mir telefonisch helfen?"
+        },
+        {
+          "text": "das ist genau das was ich wollte"
+        },
+        {
+          "text": "Im Geschäft konnte man mir nicht helfen. Was kann ich jetzt tun?"
+        },
+        {
+          "text": "Nein Bitte geben Sie mir eine andere Antwort"
+        },
+        {
+          "text": "Warten Sie bitte einen Moment auf mich"
+        },
+        {
+          "text": "Was, wenn ich eine Antwort ändern möchte?"
+        },
+        {
+          "text": "Welche Arten von Fragen können Sie mir beantworten?"
+        },
+        {
+          "text": "Welche Art von Hilfe kann ich von Ihnen bekommen?"
+        },
+        {
+          "text": "Was kann ich mit meinem neuen Gerät alles machen? Kann ich online gehen?"
+        },
+        {
+          "text": "Wie können Sie helfen, meine Probleme zu lösen?"
+        },
+        {
+          "text": "Wobei können Sie mir momentan helfen?"
+        }
+      ],
+      "description": "Request Fähigkeiten des Bot."
+    },
+    {
+      "intent": "SuiteWirdNichtAngezeigt",
+      "examples": [
+        {
+          "text": "Suite wird nicht angezeigt"
+        },
+        {
+          "text": "Doch wenn ich buchen möchte wird mir diese kategorie nicht angezeigt könnten sie mir dabei weiter helfen"
+        },
+        {
+          "text": "Ich kann heute in Essen keine 2 stunden buchen, ist dort nichts mehr frei?"
+        },
+        {
+          "text": "guten tag, habe eine frage zur resavierung. warum kann ich nicht 2std resavieren, obwohl das zeitfenster dafür verfügbar ist?"
+        },
+        {
+          "text": "Hallo ich wollte eine suit mieten für mich und meinen freund zum Geburtstag aber in Köln ist alles leider ausgebucht im März"
+        },
+        {
+          "text": "Ich möchte gerne Freitag den 25.1. für 2 Personen in Essen buchen allerdings wird mir keine Comfortsuite angezeigt"
+        },
+        {
+          "text": "Hallo liebes McWellness-Team. Ich benötige unbedingt für den 22.12 oder 23.12 einen Termin der für zwei Stunden frei ist. Das System zeigt mir an, das immer nur eine Stunde frei sind. Ich hoffe ihr könnt mir irgendwie weiter helfen, ob ich noch irgendeine Möglichkeit habe..."
+        },
+        {
+          "text": "Wieso kann ich für 4 Personen 2 stunden lang in aplerbeck nicht buchen?"
+        },
+        {
+          "text": "Hallo zusammen :) Wir waren vor nicht allzu langer Zeit in eurer Filiale in Dortmund Mitte. Nun haben wir unsern Freunden so vorgeschwärmt und wollten gerne gemeinsam zu viert buchen nur leider gelingt uns das nicht. Es werden keinerlei freien Termine angezeigt :( Was kann ich da machen?"
+        },
+        {
+          "text": "Leider sind keine freie Plätze zwischen dem 26.12-28.12 verfügbar. Gibt es vielleicht eine andere Möglichkeit 😟"
+        },
+        {
+          "text": "Hallo,<br>ich möchte gerne 2 Stunden für 2 Personen Superior in Dortmund buchen am besten 15:30 Uhr +-1 Stunde.<br>Allerdings bietet mir das System nur eine Stunde an.<br>Ich wollte mich auf dem Wege vergewissern, ob es tatsächlich ausgebucht ist? Ein Systemfehler vorhanden ist? Oder ich unfähig war?:)<br>Würde mich über eine positive Antowrt freuen.<br>Viele Grüße <br>Tamer"
+        },
+        {
+          "text": "Hallo :) wir möchten einen Aufenthalt zu 3 bei euch verschenken in Dortmund Aplerbeck.. Leider bekomme ich aber nur die Comfort Suiten. Wir hätten lieber eine Deluxe. Ist das möglich?"
+        },
+        {
+          "text": "nur leider steht da das es nur 1 STUNDE buchbar ist, könnten wir trotzdem 2 STUNDEN buchen ?"
+        },
+        {
+          "text": "Okay super. Weil ich kann dort nichts buchen"
+        },
+        {
+          "text": "Hallo ich würde gerne buchen...in Dortmund mitte zeigt er mir an das es da die SUPERIOR-SUITE gibt aber in der Buchung ist nur die deluxe"
+        },
+        {
+          "text": "Hallo, ich wollte die superior suite mieten, aber die steht leider nirgendwo zur Verfügung"
+        },
+        {
+          "text": "Hallo ich wollte für den 3.12 suporior Zimmer buchen, jedoch gibt die Seite kein suporior Zimmer an, könnten sie vielleicht mal nachschauen ? "
+        },
+        {
+          "text": "Hallo ich suche einen freien Termin für die superior Suite für morgen den 28.11 Ich wollte meiner frau damit ein Geburtstagsgeschenk machen 2 Stunden würde ich gerne reservieren aber leider ist immer nur 1 Stunde zur Verfügung ."
+        },
+        {
+          "text": "Hallo, ich würde gerne morgen ab 10 Uhr eine Suite für 2 Personen für 2 Stunden buchen. Mir wird immer nur eine für 1 Stunde angezeigt. Können sie mir da helfen? Ab 10 Uhr"
+        },
+        {
+          "text": "Hallo ich möchte gerne die DELUXE-SUITE für den Samstag am 8.12, zwei Stunden, für zwei Personen buchen. Nur leider wird mir diese Auswahl Möglichkeit nicht angezeigt. Wäre den noch etwas frei?"
+        },
+        {
+          "text": "Hallo liebes mc welness team, ich wollte die superior suite für 2 personen für den kommenden samstag abend buchen (2 stunden) leider bietet mir das system nur 1 stunde an. Obwohl noch zahlreich grüne flächen auf der tabelle zu sehen war. Woran liegt es? Ich würde gerne 2 stunden buchen."
+        }
+      ],
+      "description": "Eine bestimmte Suite wird mir nicht angezeigt"
+    },
+    {
+      "intent": "SpontanKommen",
+      "examples": [
+        {
+          "text": "Kann man auch jeder Zeit ohne Termin kommen?"
+        }
+      ],
+      "description": "Kann man auch jeder Zeit ohne Termin kommen?"
+    },
+    {
+      "intent": "Sex",
+      "examples": [
+        {
+          "text": "Darf man auch sex im Whirlpool haben?"
+        },
+        {
+          "text": "ist sex erlaubt"
+        }
+      ],
+      "description": "Ist es Sex in der Suite erlaubt?"
+    },
+    {
+      "intent": "SelfCheckin",
+      "examples": [
+        {
+          "text": "Wie funktioniert der Self Check In?"
+        },
+        {
+          "text": "Was ist ein Self CHeck In?"
+        },
+        {
+          "text": "Was ist Selfcheckin ?"
+        },
+        {
+          "text": "Was ist ein Check In Automat?"
+        }
+      ],
+      "description": "Was ist ein Self Check In?"
+    },
+    {
+      "intent": "EssenTrinkenMitbringen",
+      "examples": [
+        {
+          "text": "sind eigene getränke verboten?"
+        },
+        {
+          "text": "ist es ok wenn ich mein eigenes wasser mitbringe?"
+        },
+        {
+          "text": "darf ich essen mitbringen"
+        },
+        {
+          "text": "Darf man in den Suiten auch eigene Getränke und Snacks mitnehmen ?"
+        },
+        {
+          "text": "Hallo, wie sieht es aus wenn ich Nahrungen und Getränke von zuhause mit bringe ??"
+        },
+        {
+          "text": "Darf ich meine Lebensmittel mit in die suite nehmen?"
+        },
+        {
+          "text": "darf man bei euch getränke mitnehmen"
+        },
+        {
+          "text": "Kann ich was zu trinken mitnehmen"
+        },
+        {
+          "text": "kann ich was zu essen mitnehmen"
+        },
+        {
+          "text": "Kann ich selber etwas zum essen mitbringen?"
+        },
+        {
+          "text": "Kann ich selber etwas zum trinken mitbringen?"
+        },
+        {
+          "text": "Kann ich selber etwas zu trinken mitbringen?"
+        },
+        {
+          "text": "Kann ich meine eigene Flasche Wasser mit in die Suite nehmen?"
+        }
+      ],
+      "description": "Kann ich selber etwas zum essen oder trinken mitbringen"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Danke fuer deine Zeit."
+        },
+        {
+          "text": "vielen dank"
+        },
+        {
+          "text": "danke"
+        },
+        {
+          "text": "Von meinem iPhone gesendet"
+        },
+        {
+          "text": "Super. Bis morgen."
+        },
+        {
+          "text": "Top. Bis morgen"
+        },
+        {
+          "text": "Nee,das war es schon.=)"
+        },
+        {
+          "text": "Wir können uns jetzt verabschieden"
+        },
+        {
+          "text": "Vielen Dank für Ihre Zeit. Es tut mir leid, aber ich muss gehen. Bis später!"
+        },
+        {
+          "text": "Sie haben alles beantwortet,was ich brauche. Das ist alles für jetzt"
+        },
+        {
+          "text": "Nein ich denke das ist alles"
+        },
+        {
+          "text": "Machts gut und Auf Wiedersehen"
+        },
+        {
+          "text": "Ich wünsche Ihnen einen schönen Tag!"
+        },
+        {
+          "text": "Ich werde später wieder mit Ihnen reden"
+        },
+        {
+          "text": "Ich muss jetzt schon weg."
+        },
+        {
+          "text": "Ich rufe morgen wieder an. Tschüss."
+        },
+        {
+          "text": "Ich muss den Anruf beenden."
+        },
+        {
+          "text": "Ich melde mich noch einmal - aber jetzt muss ich zu einer Besprechung gehen."
+        },
+        {
+          "text": "Ich kann heute nicht so lange sprechen."
+        },
+        {
+          "text": "Ich bin fertig Watson, ich habe keine Fragen mehr"
+        },
+        {
+          "text": "Ich muss jetzt weg."
+        },
+        {
+          "text": "Es war schön, mit Ihnen zu sprechen."
+        },
+        {
+          "text": "Du hast mir geholfen - danke."
+        },
+        {
+          "text": "Das klappt, danke tschüss"
+        },
+        {
+          "text": "Danke und habe einen schoenen Tag."
+        },
+        {
+          "text": "Danke und bis bald."
+        },
+        {
+          "text": "tschüss"
+        }
+      ],
+      "description": "Beende die Konversation."
+    },
+    {
+      "intent": "AbWannVollerPreis",
+      "examples": [
+        {
+          "text": "Ab wann zahlt ein Kind den vollen Preis?"
+        },
+        {
+          "text": "Ab welchem Alter zahlt man den vollen Preis?"
+        },
+        {
+          "text": "Wie alt darf mein Kind sein?"
+        },
+        {
+          "text": "Bis zu welchem Alter kann ich mein Kind mitnehmen?"
+        }
+      ],
+      "description": "Ab wann zahlt ein Kind den vollen Preis?"
+    },
+    {
+      "intent": "Angebote",
+      "examples": [
+        {
+          "text": "Gibt es ein Geburtstagsspecial? Z.B. das Geburtstagskind zahlt den halben Preis ?"
+        },
+        {
+          "text": "Habt ihr Black Friday Angebote?"
+        },
+        {
+          "text": "Gibt es irgendwelche angebote"
+        },
+        {
+          "text": "Hallo, gibt es bei Ihnen zu der Weihnachtszeit bzw. Black Friday nicht auch Angebote ?"
+        },
+        {
+          "text": "habt ihr angebote"
+        },
+        {
+          "text": "Vielen Dank für die schnelle Antwort. Wi sieht es mit Studentenrabatten aus?"
+        },
+        {
+          "text": "Habt ihr wieder anfebote"
+        },
+        {
+          "text": "Gibt es auch ein Geburtstagsspecial?"
+        }
+      ],
+      "description": "Gibt es Angebote?"
+    },
+    {
+      "intent": "SaunaVarianten",
+      "examples": [
+        {
+          "text": "Hallo, ich habe für morgen um 15:00 die Superior Suite gebucht, kann man sich da eine Sauna aussuchen?"
+        },
+        {
+          "text": "Was darf ich unter einer Bio Sauna verstehen?"
+        },
+        {
+          "text": "Hallo was superior Dampfbad? "
+        },
+        {
+          "text": "Hallo, ich habe eben bei Ihnen ein Aufenthalt gebucht. Und zwar das Superior Zimmer mit Dampfbad. Hat man jetzt gar keine normale Sauna sondern nur ein Dampfbad?"
+        },
+        {
+          "text": "Hallo Liebes Mc Wellness Team , ich hätte eine Frage zur den Deluxe Suiten ! Ich würde sie gerne mit der Infarot Sauna buchen oder ist die nur in Verbindung mit der Finischen Sauna buchbar ?  Lg Steffi"
+        },
+        {
+          "text": "Was für eine Sauna gibt es?"
+        },
+        {
+          "text": "Was habt ihr so für Saunas?"
+        },
+        {
+          "text": "Welche Saunen gibt es bei euch?"
+        },
+        {
+          "text": "Was für Sauna Varianten bietet ihr an?"
+        },
+        {
+          "text": "Wie warm sind die Saunen? Oder kann man das selbst einstelle ?"
+        }
+      ],
+      "description": "Was für Sauna Varianten habt ihr?"
+    },
+    {
+      "intent": "Leihgebühr",
+      "examples": [
+        {
+          "text": "Hey Anna... kannst du mir mal die Preise fürs ausleihen von Handtüchern verraten!!??Danke im vorraus! Lg"
+        },
+        {
+          "text": "Was kostet ein Bademantel?"
+        },
+        {
+          "text": "Was kostet ein Saunahandtuch ?"
+        },
+        {
+          "text": "Kann man sich ein Handtuch ausleihen?"
+        },
+        {
+          "text": "Kann ich mir ein Saunatuch leihen?"
+        },
+        {
+          "text": "Kriegt man bei euch ein Saunatuch?"
+        },
+        {
+          "text": "Kriege ich bei euch einen Bademantel?"
+        },
+        {
+          "text": "Ich habe meinen Bademantel vergessen"
+        },
+        {
+          "text": "Eine Frage wie viel kosten handtHandt und Bademäntel"
+        },
+        {
+          "text": "Hallo :) kann man bei euch in den Filialen zusätzlich zum Gutschein auch zwei Sauna-Handtücher kaufen? Falls ja, zu welchem Preis? Grüße Kristina"
+        },
+        {
+          "text": "Hallo, ich wollte mal fragen wie teuer das wäre, sich einen Bademantel vor Ort auszuleihen?"
+        },
+        {
+          "text": "wie viel kostet ein handtuch auszuleihen"
+        },
+        {
+          "text": "und wie hoch ist die leihgebühr ?"
+        },
+        {
+          "text": "Hallo! Könntet ihr mir sagen welche Gebühr ihr für die Leih von Bademänteln erhebt?"
+        },
+        {
+          "text": "Wie Teuer ist die Leihgebühr für Duschtuch , Bademantel , Badeschuhe"
+        },
+        {
+          "text": "ich habe eine Frage sind die HandtÃ¼cher und BademÃ¤ntel kostenpflichtig"
+        },
+        {
+          "text": "Wie hoch ist denn die Gebühr für alles zusammen?"
+        }
+      ],
+      "description": "Leihgebühr Duschtusch et"
+    },
+    {
+      "intent": "ArtikelErsetzen",
+      "examples": [
+        {
+          "text": "Hallo, wir haben heute einen Termin in Aplerbecker. Dort haben wir ein paket gebucht in dem Bademäntel drin enthalten sind. Meine Frage ist ob wir diese gegen Saunatücher wechseln können?"
+        },
+        {
+          "text": "ich habe dieses Angebot gebucht aber mein Partner und ich trunken keinen Alkohol und so würde ich gerne 2× 0.1 Prosecco und 2× froccacia eintauschen gegen 4 Obst Spieße"
+        },
+        {
+          "text": "Ich habe vor ein paar Tagen das Superior-Dampfbad gebucht. Zusätzlich habe ich das Candle Light Dinner Arrangements gebucht. Ist es möglich anstatt Prosecco etwas alkoholfreies zu nehmen,z.B Orangensaft?"
+        },
+        {
+          "text": "ich hab eine Frage.. und zwar, hab ich meinem Freund ein Arragement geschenkt wo Tomate Mozarella Sticks enthalten sind. Er hat seit neusten Laktose Intoleranz. Wäre es mögluch die dann auszutauschen zb gegen Obst Spieße oder ähnliches? mit freundlichen Grüßen Julia Lening"
+        },
+        {
+          "text": "Kann ich anstatt irgendwas auch irgendwas bestellen?"
+        },
+        {
+          "text": "Hallo, wir interessieren uns für das Angebot beste Freundin. Besteht dort die Möglichkeit Prosecco statt Hugo zu bekommen? Und vielleicht auch etwas anderes als die Tomate-Mozzarella-Spieße??"
+        },
+        {
+          "text": "Kann ich Artikel aus einem Arrangement ersetzen?"
+        }
+      ],
+      "description": "Kann ich Artikel aus einem Arrangement ersetzen?"
+    },
+    {
+      "intent": "Durchreiche",
+      "examples": [
+        {
+          "text": "Was ist eine Durchreiche?"
+        },
+        {
+          "text": "Hallo. Ich habe morgen einem Termin und ich moechte wissen, wie die Durchreihe funkioniert."
+        },
+        {
+          "text": "Wie funktioniert die Durchreiche?"
+        }
+      ],
+      "description": "Wie funktioniert die Durchreiche?"
+    },
+    {
+      "intent": "WLAN",
+      "examples": [
+        {
+          "text": "Habt ihr WLAN"
+        },
+        {
+          "text": "gibt es wifi ?"
+        },
+        {
+          "text": "Recht schönen guten Morgen ich habe für Mittwoch eine Suite gebucht und wollte mich informieren ob es bei euch einen WLAN Zugriff gibt"
+        },
+        {
+          "text": "Gibt es in den SUiten WLAN?"
+        },
+        {
+          "text": "Habt ihr Internet in den Suiten?"
+        }
+      ],
+      "description": "gibt es bei euch WLAN?"
+    },
+    {
+      "intent": "GeldDoppeltAbgebucht",
+      "examples": [
+        {
+          "text": "Hallo ich hatte für den 27.11.18 bei ihnen gebucht aber dann hab ich es inerhalb 24 stunden stoniert , mir wurde der Betrag 72€ doppelt von meinem Konto abgebucht."
+        },
+        {
+          "text": "Wieso habt ihr mir zwei Mal Geld abgezogen?"
+        },
+        {
+          "text": "Mein Geld wurde doppelt abgebucht"
+        },
+        {
+          "text": "Hallo, ihr habt mir mein Geld doppelt abgebucht"
+        },
+        {
+          "text": "Ich habe zwei mal die gleiche Abbuchung bekommen"
+        }
+      ],
+      "description": "Mir wurde mein Geld doppelt abgebucht"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Bist Du heute in der Laune für Witze?"
+        },
+        {
+          "text": "Kann man mit Dir auch ueber lustige Sachen sprechen ?"
+        },
+        {
+          "text": "Kann man mit Dir Spiele spielen ?"
+        },
+        {
+          "text": "Kannst Du auch Witze erzaehlen ?"
+        },
+        {
+          "text": "Kannst Du auch komisch sein?"
+        },
+        {
+          "text": "Kennst Du auch Witze ?"
+        },
+        {
+          "text": "Kannst Du Witze erzaehlen ?"
+        },
+        {
+          "text": "Kann man mit Dir Bier trinken ?"
+        },
+        {
+          "text": "Hast Du auch Spiele installiert?"
+        },
+        {
+          "text": "Magst Du Witze ?"
+        },
+        {
+          "text": "Magst Du Bier oder Schnaps ?"
+        },
+        {
+          "text": "Kennst Du viele Witze ?"
+        },
+        {
+          "text": "Bist Du gerade fröhlich oder traurig ?"
+        },
+        {
+          "text": "Hast Du auch Arme und Beine ?"
+        },
+        {
+          "text": "Putz meine Wohnung"
+        },
+        {
+          "text": "Worüber würdest Du dich freuen?"
+        },
+        {
+          "text": "Welche Haarfarbe hast Du  ?"
+        },
+        {
+          "text": "Sag mir etwas lustiges."
+        },
+        {
+          "text": "Erzähl mir einen Witz."
+        }
+      ],
+      "description": "Fordern Sie einen Witz an."
+    },
+    {
+      "intent": "AlkoholischeGetränke",
+      "examples": [
+        {
+          "text": "Kann man bei euch Alkohol bestellen?"
+        },
+        {
+          "text": "Habt ihr Alkohol?"
+        },
+        {
+          "text": "Gibt es bei euch auch alkoholische Getränke?"
+        }
+      ],
+      "description": "Gibt es bei euch auch alkoholische Getränke?"
+    },
+    {
+      "intent": "Saufen",
+      "examples": [
+        {
+          "text": "Alkohol"
+        },
+        {
+          "text": "Welche Suite ist besser zum saufen?"
+        },
+        {
+          "text": "was ist wenn ich betrunken in die Sauna gehe?"
+        },
+        {
+          "text": "Darf ich mich in der Suite betrinken"
+        },
+        {
+          "text": "Saufen?"
+        }
+      ],
+      "description": "was ist wenn ich betrunken in die Sauna gehe?"
+    },
+    {
+      "intent": "Warteliste",
+      "examples": [
+        {
+          "text": "Hallo hab da mal eine Frage, kann man benachrichtigt werden wenn jemand seinen 2 Stunden Termin am 8.12. Storniert"
+        },
+        {
+          "text": "Hallöchen, ich würde gerne mit meiner Freundin am Sonntag den 25.11.18 zum entspannen in Bochum Grumme in eine Superior Suite für 2 Stunden buchen, allerdings ist da erstmal nichts mehr frei, kann man sich eventuell in eine Warteliste eintragen falls noch storniert wird oder es spontan doch noch die Möglichkeit gibt ein Plätzchen zu bekommen? <br>Liebe Grüße Tobi"
+        }
+      ],
+      "description": "Gibt es eine Warteliste falls jemand storniert"
+    },
+    {
+      "intent": "WelcheStandorte",
+      "examples": [
+        {
+          "text": "Wo gibt es McWellness?"
+        },
+        {
+          "text": "Gibt es auch eine Filiale in Hamm?"
+        },
+        {
+          "text": "Ich habe mal eine Frage in welchen Städten gibt es die Wellness Möglichkeit?"
+        },
+        {
+          "text": "Wo sind eure Filialen?"
+        },
+        {
+          "text": "Welche Filialen habt ihr?"
+        },
+        {
+          "text": "In welchen Städten gibt es McWellness?"
+        },
+        {
+          "text": "Wo seid ihr vertreten?"
+        },
+        {
+          "text": "Wo gibt es euch?"
+        },
+        {
+          "text": "Welche Standorte habt ihr?"
+        }
+      ],
+      "description": "Welche Standorte habt ihr"
+    },
+    {
+      "intent": "GutscheinGultigkeit",
+      "examples": [
+        {
+          "text": "Bis wann kann ich mein Ticket einlösen?"
+        },
+        {
+          "text": "Wie lange habe ich, um einen Gutschein einzulösen?"
+        },
+        {
+          "text": "Hallo, ich habe einen Gutschein gefunden, der das Ablaufdatum 26.02.2016 hat. Kann ich diesen trotzdem noch einlösen bzw. können sie checken, ob ich den Code schon verwand habe?"
+        },
+        {
+          "text": "Wie lange sind eure Gutscheine gültig??"
+        },
+        {
+          "text": "Wie lange ist ein Gutschein gültig?"
+        },
+        {
+          "text": "Wie lange ist ein Ticket gültig?"
+        },
+        {
+          "text": "Wie lange ist der Gutschein einlösbar?"
+        },
+        {
+          "text": "Hallo :) ich habe eine Frage zu den Do-it-yourself-Gutscheinen: wie lange sind diese gültig?"
+        },
+        {
+          "text": "Guten Morgen, wie lange haben Ihre Gutscheine Gültigkeit? Mit freundlichen Grüßen Lisa Puhl"
+        }
+      ],
+      "description": "Wie lange ist ein Gutschein gültig?"
+    },
+    {
+      "intent": "Abbrechen",
+      "examples": [
+        {
+          "text": "abbrechen"
+        },
+        {
+          "text": "hello"
+        }
+      ],
+      "description": "abbrechen"
+    },
+    {
+      "intent": "BegleitpersonWechseln",
+      "examples": [
+        {
+          "text": "Hallo ich wollte gerne im Auftrag meiner Mutter (will mit Mann dort hin) ein Angebot bei ihnen buchen. Ich nehme dann ja nicht an dem Angebot teil (stehe aber als Bucherin mit drin) und kann dann nur meine Mutetr als Begleitung angeben? ist das ein Problem? Kann der Name vor Ort geändert werden?"
+        },
+        {
+          "text": "Kann ich mit einer anderen Person erscheinen?"
+        },
+        {
+          "text": "wenn ich eine andere Person als wir angegeben mitnehmen geht das ? Oder muss es de Person sein die angegeben wurde ?"
+        },
+        {
+          "text": "Hallo, ich habe ein Frage bzgl. der do-it-yourself Gutscheine. Wenn ich so einen für eine Person weiterschenken, kann die beschenkte Person dann trotzdem mit einer Begleitung in die Suite oder muss diese zwingend alleine die Suite nutzen?"
+        },
+        {
+          "text": "Guten Morgen,  ich habe gestern Online eine Buchungen gemacht. Aber leider die Personenanzahl nicht korrekt gesetzt und jetzt nur für 1 Person, statt zwei Personen gebucht. Kann ich die zweite Person noch nachbuchen?  Die Buchung ist auf den Namen Kuhn am 27.01.2019 um 20:00Uhr.  Herzliche Grüße Katrin Kuhn"
+        },
+        {
+          "text": "Kann man den Namen der Begleitperson ändern"
+        }
+      ],
+      "description": "Kann ich meine Begleitperson wechseln?"
+    },
+    {
+      "intent": "WannVorherDaSein",
+      "examples": [
+        {
+          "text": "Wie viel zeit früher muss ich vor Ort sein?"
+        },
+        {
+          "text": "Hey. Ist es ratsam noch ehr als 15 min vor Beginn anzukommen wenn man noch keine wellness Karte besitzt?"
+        },
+        {
+          "text": "Wie lange vor meiner Buchung sollte ich da sein?"
+        },
+        {
+          "text": "Wie viel früher muss ich vor Ort sein?"
+        },
+        {
+          "text": "Wann soll ich kommen?"
+        },
+        {
+          "text": "Wie lange vorher muss ich kommen?"
+        }
+      ],
+      "description": "Wie viel früher muss ich vor Ort sein?"
+    },
+    {
+      "intent": "WoGibtEsSuperior",
+      "examples": [
+        {
+          "text": "Wo gibt es Superior Suiten?`"
+        },
+        {
+          "text": "Gibt es die Superior Suite in Köln nicht? :-)"
+        },
+        {
+          "text": "Wo bekommt man den diese Massageliege, gibt es die an allen Standorten?"
+        },
+        {
+          "text": "In welchen Filialen gibt es Superior?"
+        },
+        {
+          "text": "In welchen Filialen gibt es MAssageliegen?"
+        },
+        {
+          "text": "Wo gibt es Massageliegen?`"
+        }
+      ],
+      "description": "Wo gibt es superior suiten?"
+    },
+    {
+      "intent": "Privatsphare",
+      "examples": [
+        {
+          "text": "Hii ich hätte paar fragen. Sind wir in den suit alleine? Können uns andere auch beobachten oder auch sehen?"
+        },
+        {
+          "text": "Sind wir wirklich ungestört?"
+        },
+        {
+          "text": "Kommen Mitarbeiter einfach so in unsere Suite?"
+        },
+        {
+          "text": "Werden wir von Mitarbeitern gestört werden?"
+        },
+        {
+          "text": "Wie sieht es mit Privatsphäre aus?"
+        },
+        {
+          "text": "Sind wir auch wrklich alleine?"
+        },
+        {
+          "text": "Wo kann man sich umziehen?"
+        },
+        {
+          "text": "Kann ich mich in meiner Suite umziehen?"
+        },
+        {
+          "text": "Gibt es eine Umkleine?"
+        },
+        {
+          "text": "Muss ich mich vor anderen Menschen umziehen?"
+        },
+        {
+          "text": "Ist man bei euch wirklich privat?"
+        },
+        {
+          "text": "Hallo kann man die Räume auch privat nutzen ? Mein Mann und ich"
+        },
+        {
+          "text": "Ist man unter sich oder muss man ein Raum teilen ?"
+        },
+        {
+          "text": "Guten Tag, ich wollte mal nachfragen wenn ich für meinen Mann und mich buche bekommen wir dann quasi eine dieser Suiten nur für uns beide für den Zeitraum?"
+        },
+        {
+          "text": "Ich habe paar Fragen. Habe ich immer ein Zimmer bei der Buchung? Egal ob ich eine Stunde ider mehrer buchen will, ich habe immer ein Zimmer für mich und mein Partner alleine?"
+        },
+        {
+          "text": "Wenn man ein Suite bucht hat man diese dann für sich alleine ?"
+        },
+        {
+          "text": "Die Sauna in der superiorsuite ist nur für mich, da kann keine andere Person reinlommen?"
+        },
+        {
+          "text": "Hallo, wenn ich die Sauna für mich und meiner Frau buche .... sind wir dann alleine in der Sauna ?"
+        },
+        {
+          "text": "Hallo ich habe eine Frage sehen andere Leute uns in der suite"
+        },
+        {
+          "text": "Hallo :) wollte mal fragen wie das mit dem Um-/ausziehen funktioniert ?! Passiert das in der Suite oder sind davor Kabinen oder so?! Liebe Grüße.. freue mich auf meinem ersten Aufenthalt im Januar "
+        }
+      ],
+      "description": "Ist man bei euch wirklich privat?"
+    },
+    {
+      "intent": "HundMitbringen",
+      "examples": [
+        {
+          "text": "Darf ich meinen Hund mitbringen?"
+        },
+        {
+          "text": "Ich habe eine Frage. Wäre es möglich mein Hund mitzubringen? Er würde dann in einer Transportbox die ganze Zeit sein."
+        },
+        {
+          "text": "Darf ich meine Katze mitbringen?"
+        },
+        {
+          "text": "Dürfen Tiere mit in die Suite?"
+        },
+        {
+          "text": "Kann ich mein Haustier mitbringen?"
+        },
+        {
+          "text": "Darf man Hunde mitnehmen?"
+        }
+      ],
+      "description": "Darf ich meinen Hund mitbringen?"
+    },
+    {
+      "intent": "KostenGetraenkeExtra",
+      "examples": [
+        {
+          "text": "Guten Tag, kosten Drinks und Snacks extra ? Und wenn ja , könnte man schon vorab schauen wie teuer das ist ?"
+        },
+        {
+          "text": "Sind Getränke schon im Preis enthalten?"
+        },
+        {
+          "text": "Kosten Getränke extra?"
+        },
+        {
+          "text": "Kostet Essen extra?"
+        },
+        {
+          "text": "Kosten Snacks extra?"
+        },
+        {
+          "text": "Das weiß ich , ich wollte wissen ob Snacks und Drinks extra sind oder im Preis mit drinne"
+        }
+      ],
+      "description": "Kosten Getränke extra?"
+    },
+    {
+      "intent": "Nein",
+      "examples": [
+        {
+          "text": "ne"
+        },
+        {
+          "text": "nein"
+        },
+        {
+          "text": "niemals"
+        },
+        {
+          "text": "auf keinen fall"
+        }
+      ],
+      "description": "nein"
+    },
+    {
+      "intent": "AlleineBuchen",
+      "examples": [
+        {
+          "text": "muss man mit mehreren personen kommen oder geht auch alleine?"
+        },
+        {
+          "text": "kann ich auch alleine in eine suite?"
+        },
+        {
+          "text": "kann ich alleine kommen"
+        },
+        {
+          "text": "Hallo habe für 09.12.2018 Superior Wellness gebucht. Um 14.45 bis 16.00 hat man die möglichkeit std dahinter zu buchen, werde zum erstenmal dort erscheinen und das bei meiner 1‘ste Hochzeitsjahr ? Können Sie mir darüber information geben . "
+        },
+        {
+          "text": "kann ich auch eine suite für mich alleine buchen"
+        },
+        {
+          "text": "kann man alleine in eine suite"
+        }
+      ],
+      "description": "kann ich alleine buchen?"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Wie konfiguriere ich den virtuellen Beratungsservice?"
+        },
+        {
+          "text": "Mit welcher Art von Bot interagiere ich?"
+        },
+        {
+          "text": "Wie heisst Du ?"
+        },
+        {
+          "text": "Wie hast Du heute geschlafen ?"
+        },
+        {
+          "text": "Wie funktioniert der Chatbot?"
+        },
+        {
+          "text": "wie gehts"
+        },
+        {
+          "text": "können sie mir weiter helfen"
+        },
+        {
+          "text": "Was fuer eine Laune hast Du ?"
+        },
+        {
+          "text": "Welche Sprachen sprechen Sie?"
+        },
+        {
+          "text": "In welcher Stadt befindest Du dich jetzt gerade ?"
+        },
+        {
+          "text": "Ist dein English besser als dein Deutsch ?"
+        },
+        {
+          "text": "Spreche ich mit einem Menschen ?"
+        },
+        {
+          "text": "Sind Sie in der Lage zu sprechen?"
+        },
+        {
+          "text": "Sag mir etwas ueber Dich."
+        },
+        {
+          "text": "Oh übrigens sprichst du französisch"
+        },
+        {
+          "text": "Ich will die Informationen zu den Kosten vom Watson"
+        },
+        {
+          "text": "Ich möchte verstehen, wie du arbeitest"
+        },
+        {
+          "text": "Ich möchte den Chatbot für mein Geschäft einrichten"
+        },
+        {
+          "text": "Bist du Mensch oder Maschine ?"
+        },
+        {
+          "text": "Was sind deine Hobbys ?"
+        },
+        {
+          "text": "Wie kann ich den Chat-Bot für mein Unternehmen konfigurieren?"
+        }
+      ],
+      "description": "Fordern Sie generische persönliche Attribute an."
+    },
+    {
+      "intent": "BezahlstatusFehlerhaft",
+      "examples": [
+        {
+          "text": "Hab ein Termin gebucht , nur leider hatte ich nicht mehr genug Geld  auf meinem Konto . Ist dieser Termin trotz noch für mich reserviert ? Wie kann ich das bezahlen ?"
+        },
+        {
+          "text": "Hallo, ich habe gerade eine Suite für den 07.12. gebucht. Leider hat mein PC sich aufgehangen, als ich zur Paypal Seite weitergeleitet wurde. Können Sie mir helfen? Ich würde gerne sofort bezahlen. Vielen Dank!"
+        },
+        {
+          "text": "Hallo wollte nochmal fragen ob ich den Termin noch habe ? Weil ich vergessen habe ,Geld bei mir auf konto einzuzahlen wurde der Beitrag nicht abgebucht . Auf den Namen Huy Tran am 01.12 in Bochum "
+        },
+        {
+          "text": "Hallo ich wollte für Bochum morgen für 17.15 Buchen musste nur noch die Tan bestätigen und aufeinmal fehlgeschlagen und jetzt ist es ausgebucht was kann ich machen .. Lg"
+        },
+        {
+          "text": "Hallo , ich habe gestern ein Suite bei Ihnen gebucht , blöderweise hab ich mich verklickt wollte statt Kreditkarte mit PayPal zahlen.  Als ich ne Seite zurück springen wollte war ich komplett raus . Jetzt ist es scheinbar gebucht ohne Bestätigung und noch nicht gezahlt. Kann man das gleich in der Filiale tun ? "
+        },
+        {
+          "text": "hallo, ich habe gerade einen gutschein gekauft, aber die bezahlung über klarna hat nicht funktioniert. Wie kann ich jetzt meinen Gutschein bezahlen und erhalten?"
+        },
+        {
+          "text": "Hallo habe vor paar Tagen gebucht und wurde weitergeleitet damit ich das bezahlen  irgendwie ging das nicht und ich habe auch keine E-Mail bekommen und ich weiß nicht wie ich da drauf wieder zurückgreifen kann und ich weiß auch nicht ob ich gebucht habe oder nicht und wo ich die ganze Zeit an geht keiner dran bitte um Rückruf lg: Linda "
+        },
+        {
+          "text": "Hallo liebes MC Wellness Team, ich habe gestern für Donnerstag von 18:45-20:45 versucht die Deluxe plus suit in Dortmund Mitte zu buchen. Während des Vorgangs konnte ich dann aber nicht mehr bezahlen und nun ist die Zeit nicht mehr verfügbar. War das ein Programmfehler und ist zu dieser Uhrzeit in einer ihrer Filialen noch etwas frei, oder hat mir dann jemanden während meiner Buchung die Suit weggeschnappt?  "
+        },
+        {
+          "text": "Hallo, mein Freund hat gerade eine Buchung bei Ihnen getätigt und als Bezahlmethode \"Sofortüberweisung\" angegeben. Unter Bezahlstatus steht \"Fehlerhaft\". Was können wir tun? Oder können Sie mir die Kontodaten + Verwendungszweck geben und ich überweise es. LG Alice"
+        },
+        {
+          "text": "Hallo, ich habe am 14.11 bei euch ein Aufenthalt gebucht für den 28.11.18, mit der Nummer 100129699 leider sind wohl falsche Bankdaten hinterlegt und ich kann diese nicht einsehen. Kann ich noch Überweisen?"
+        },
+        {
+          "text": "hallo. ich wollte ferade bei ihnen buchen für heute um 18.15 Uhr, allerdings wo ich dann zahlen wollte über pay pal, ging es nicht weiter. Können sie mir eventuell helfen ?"
+        },
+        {
+          "text": "Hallo und zwar habe ich ausversehn die falsche Zahlungsmethode geklickt und komme nicht weiter. Könnten sie mir bitte weiter helfen"
+        },
+        {
+          "text": "Hallo, habe ein kleines Problem.  Ich habe eine Buchung durchgeführt und hatte ein Ticketcode im Wert von 108 Euro. Den Rest wollte ich mit PayPal zahlen. Leider kann ich mich da nicht mehr anmelden. Wie kann ich es nun machen, dass der Restbetrag per Lastschrift abgebucht wird? LG"
+        },
+        {
+          "text": "Meine Zahlung hat nicht geklappt, was mache ich jetzt?"
+        },
+        {
+          "text": "Meine Zahlung ist fehlerhaft"
+        },
+        {
+          "text": "Bei mir steht die Zahlung war fehlerhaft, muss ich nochmal neu buchen?"
+        },
+        {
+          "text": "Hallo, ich habe gerade eine Buchung für den 02.12 getätigt. Das Bezahlen ging auch über paypal aber dann ist irgendwas schief gelaufen "
+        },
+        {
+          "text": "Schönen Guten Tag, mir ist ein Fehler bei der Buchung unterlaufen. Hätte eine Frage "
+        },
+        {
+          "text": "Guten Morgen, ich habe grade eine Buchung getätigt aber die Seite für die Eingabe der Kreditkarten Daten hatte eine Fehler. Wie kann ich die Zahlung nun tätigen?"
+        }
+      ],
+      "description": "Bezahlung ist  fehlerhaft"
+    },
+    {
+      "intent": "Buchungsbestatigung",
+      "examples": [
+        {
+          "text": "Ist eine Reservierung für Kristina Zeiger eingegangen? Für die erste Januar Woche, habe keine Bestätigung per Mail bekommen. <a href=\"mailto:kristinazei@web.de\" rel=\"nofollow\" target=\"_blank\">kristinazei@web.de</a>"
+        },
+        {
+          "text": "Warum kommt die Buchungsbestätigung nicht an"
+        },
+        {
+          "text": "Kann ich die Buchungsbestätigung nochmal bekommen"
+        },
+        {
+          "text": "Ich habe keine Buchungsbestätigung bekommen"
+        },
+        {
+          "text": "Ich habe meine Buchungsbestätigung nicht erhalten"
+        },
+        {
+          "text": "und wollte fragen was mich erwartet.. zusätzlich fehlt mir eure e Mail da meine komischerweise weg ist.. könnt ihr mir ne neue senden ? patiii89@web.de"
+        },
+        {
+          "text": "ich habe Für Freitag eine suite gebucht, finde jedoch leider die email nicht mehr, könnten sie mir die nochmals senden? Der Name ist Justin Behrendt."
+        },
+        {
+          "text": "Guten Morgen. Ich war gestern in Ihrer Filiale in Essen. Ich habe für Montag von 17:30 - 18:30Uhr ein Superior Suite gebucht und bezahlt. Die Bestätigungs E-Mail ist bei mir immer noch nicht angekommen. E-Mail Adresse lautet: guerkan99@hotmail.de"
+        },
+        {
+          "text": "ich habe heute Morgen einen Termin in Köln für den 20.04.2019 von 13-17 Uhr gebucht, jedoch noch keine Buchungsbestätigung erhalten. Ist der Termin jetzt sicher für mich gebucht worden?"
+        },
+        {
+          "text": "Im Email Fach hab ich nichts erhalten bis jetzt"
+        },
+        {
+          "text": "Hallo habe grade gebucht aber ich habe keine buchungsbestädigung können sie mir helfen"
+        },
+        {
+          "text": "Guten Tag, ich habe für heute den 17.12 für 2 Stunden für 2 Personen um 22:05-00:05 gebucht auf den Namen Vakufac jedoch habe ich keine Bestätigung bekommen. Auf dem angegeben Bankkonto per Lastschrift wurden auch 80€ abgebucht."
+        },
+        {
+          "text": "Könnt ihr mir die Buchungsbestätigung schicken"
+        },
+        {
+          "text": "Liebes McWellnessteam, ich habe für morgen die Superior Suite in Dortmund gebucht, habe aber noch keine Buchungsbestätigung bekommen. Wird mir noch eine Bestätigung per Email zugestellt? Liebe Grüße Leandra Gesterkamp"
+        },
+        {
+          "text": "Hallo, ich hab bei euch heute eine Suite gebucht und weiß nicht mehr in welchem MC Wellness. Eine E-Mail hab ich auch nicht. Buchungsnr:100131624"
+        },
+        {
+          "text": "Hallo habe für morgen einen Termin bei MC Wellness gemacht habe aber keine buchungsbestätigung mehr geht das auch mit dem namen? "
+        },
+        {
+          "text": "Guten Tag! ich habe meine Mial mit der Buchungsbestätigung schicken, ich habe sie gelöscht. LG"
+        },
+        {
+          "text": "Hallo liebes Mc Wellness team,  am 23.10 hat meine Freundin Julia Kruse,  für uns eine Suit gemietet  für den 9.12, leider musste ich jtz feststellen das meine e mail durch ein system Fehler weg ist . Könnte ich nochmal eine nachgeschickt bekommen? Mit freundlichen Grüßen Lisa Peters... e-mail: <a href=\"mailto:lisa-katharina92@web.de\" rel=\"nofollow\" target=\"_blank\">lisa-katharina92@web.de</a> "
+        },
+        {
+          "text": "hallo, ich habe nach der Buchung einer Suite keine Buchungsbestätigung mit allen Details erhalten. Wie kann ich eine erhalten?"
+        },
+        {
+          "text": "Hallöchen, ich habe für den 02.12 in Bochum Grumme für 2 std die Sauna gebucht .. habe aber nie eine Bestätigung bekommen. Ich müsste den Termin leider noch mal canceln dafür bräuchte ich aber die Buchungsbestätigung. Lg Lisa Furk "
+        },
+        {
+          "text": "Ich habe gerade eine Buchung getätigt, aber ich habe keine Termin Bestätigung bekommen. "
+        },
+        {
+          "text": "Hallo, ich habe am 30.11.2018, um 16.57 Uhr eine Buchung für den 27.01.2019 erfasst, aber bis jetzt keine Bestätigung erhalten. Buchungsnummer 100134127"
+        },
+        {
+          "text": "hallo, ich habe in den letzten wochen eine buchung bei euch gemacht. für den 9.12. 12h ..ich finde nur leider keine buchungsbestätigung oder ähnliches. bräuchte auch noch die adresse ;) danke für die hilfe, jennifer luig, jennn@gmx.net"
+        },
+        {
+          "text": "hallo, ich habe in den letzten wochen eine buchung bei euch gemacht. für den 9.12.  12h ..ich finde nur leider keine  buchungsbestätigung oder ähnliches. bräuchte auch noch die adresse ;) danke für die hilfe, jennifer luig, <a href=\"mailto:jennn@gmx.net\" rel=\"nofollow\" target=\"_blank\">jennn@gmx.net</a>"
+        },
+        {
+          "text": "Wieso habe ich keine Buchungsbestätigung bekommen"
+        }
+      ],
+      "description": "Ich habe meine Buchungsbestätigung nicht erhalten"
+    },
+    {
+      "intent": "HalbeStundenBuchen",
+      "examples": [
+        {
+          "text": "Kann man nur volle Stunden buchen?"
+        },
+        {
+          "text": "Kann man auch halbe Stunde buchen?"
+        },
+        {
+          "text": "Hallo ich hätte eine Frage. Da für heute alles ausgebucht ist im Rahmen von 2 std,ich aber sehe dass von 22:30-12:00 was frei ist, wollte ich mal fragen ob es auch die Möglichkeit gibt für 1,5 std zu buchen?"
+        },
+        {
+          "text": "Kann man diese auch für 1 Stunde und 15 Minuten buchen?"
+        },
+        {
+          "text": "Kann man auch 1,5 Stunden buchen"
+        }
+      ],
+      "description": "Kann man auch halbe Stunde buchen?"
+    },
+    {
+      "intent": "Mindestdauer",
+      "examples": [
+        {
+          "text": "wie lange muss ich eine suite buchen?"
+        },
+        {
+          "text": "kannst du mir empfehlen wie lange ich buche sollte?"
+        },
+        {
+          "text": "Wie ist die Mindestdauer einer Buchung?"
+        },
+        {
+          "text": "Wie lange muss ich mindestens bleiben?"
+        },
+        {
+          "text": "Kann ich auch weniger als eine Stunde buchen?"
+        }
+      ],
+      "description": "Wie ist die Mindestdauer einer Buchung?"
+    },
+    {
+      "intent": "Hygiene",
+      "examples": [
+        {
+          "text": "Welche Hygienevorschriften habt ihr?"
+        },
+        {
+          "text": "Woher weiß ich, dass immer alles sauber ist?"
+        },
+        {
+          "text": "Ist es bei euch hygienisch?"
+        },
+        {
+          "text": "Wie sieht es aus mit Hygiene?"
+        },
+        {
+          "text": "Wie sauber sind die Suiten?"
+        },
+        {
+          "text": "Hallo, werden eure Kabinen regelmäßig gereinigt?"
+        },
+        {
+          "text": "Wird das Wasser nach jedem Besuch gewechselt so wie bei Wellnest?"
+        },
+        {
+          "text": "Hallo, wie ist das mit dem whirlpool. Wird das Wasser für jeden Kunden neu eingelassen oder nicht:"
+        },
+        {
+          "text": "Ist bei euch alles dreckig?"
+        },
+        {
+          "text": "Wie oft reinigt ihr?"
+        },
+        {
+          "text": "Wie oft macht ihr sauber?"
+        },
+        {
+          "text": "Wird regelmäßig geputzt?"
+        },
+        {
+          "text": "Ich habe Angst, dass es dreckig ist"
+        },
+        {
+          "text": "Macht ihr gründlich sauber?"
+        },
+        {
+          "text": "Wann wird gereinigt?"
+        },
+        {
+          "text": "Ist alles hygienisch?"
+        }
+      ],
+      "description": "Wie sieht es mit Hygiene aus?"
+    },
+    {
+      "intent": "BitteUmAnruf",
+      "examples": [
+        {
+          "text": "Hallo Mc-Wellness Team. Ich bitte um Rückruf unter 01739114238. Wäre schön, wenn es diesmal funktioniert. Sonnige Grüße Micha"
+        },
+        {
+          "text": "Hallo ist es möglich, dass sich jemand kurzfristig telefonisch bei mir meldet oder muss man einen Tag warten da offenbar grade alle viel zutun haben? LG"
+        },
+        {
+          "text": "Würde mich über eine Antwort freuen"
+        },
+        {
+          "text": "Brauche dringend eine Rückmeldung"
+        },
+        {
+          "text": "Bitte um einen ruckruf wenn möglich"
+        },
+        {
+          "text": "Könnte ich bitte einen Rückruf bekommen?"
+        },
+        {
+          "text": "Kannst du mich bitte anrufen"
+        }
+      ],
+      "description": "Bitte ruf mich an"
+    },
+    {
+      "intent": "PersonenAnzahl",
+      "examples": [
+        {
+          "text": "Hallo kann man auch ein Paket für 3 Personen buchen? Für einen mädelstag"
+        },
+        {
+          "text": "Hallo! Kann man auch zu 3 Personen buchen ?"
+        },
+        {
+          "text": "Hallo liebes Team,  Ich habe eine Frage, wäre es eventuell auch möglich das man eine Suite buchen kann für 3 Leute?  Wir Haben an einen Mädels Aufenthalt gedacht gehabt."
+        },
+        {
+          "text": "Wenn ich eine Suite für 2 Personen buche, kann ich mit drei Personen kommen und für 3 auch bezahlen? Ist das möglich?"
+        },
+        {
+          "text": "Guten Tag ich möchte für einen Junggesellenabschied eine Suite buchen ist das richtig das die nur für maximal 4 Personen gebucht werden können? Vielen Dank"
+        },
+        {
+          "text": "Hallo. Ich habe eine Frage und zwar kann man auch mit 8 Personen eine suite buchen? LG Tina "
+        },
+        {
+          "text": "Hallo, kann man die Suiten auch mit mehreren Leuten nutzen? Wie viele sind erlaubt?"
+        },
+        {
+          "text": "Hallo... gibt es auch einen wellness bereich für 5 Personen???"
+        },
+        {
+          "text": "mit wie vielen personen kann ich buchen?"
+        },
+        {
+          "text": "Hallo zusammen, <br>ich habe einen Gutschein von euch gewonnen für die Deluxe Suit. <br>Meine Frage nun: für wie viel Personen ist die Suite ausgelegt? <br>Liebe Grüße Vivien "
+        },
+        {
+          "text": "Hallo 🤗 kann man die Suiten auch zu viert nutzen ?"
+        },
+        {
+          "text": "Guten Morgen, ich benötige eine Suite für drei Personen. Nun habe ich gelesen, dass in der Filiale Dortmund-Aplerbeck diese Möglichkeit besteht. Ich möchte nun wissen, für welche Kategorie eine Buchung für drei Personen möglich ist."
+        },
+        {
+          "text": "Hallo kann man sich einen wellnesbereich mit 3 personen teilen? :)"
+        },
+        {
+          "text": "können wir zu viert buchen?"
+        },
+        {
+          "text": "Mit wie vielen kann ich in eine Suite?"
+        },
+        {
+          "text": "Wie viele passen in eine Suite?"
+        },
+        {
+          "text": "Ist die Suite für sieben Personen buchen?"
+        },
+        {
+          "text": "wie viele freunde kann ich mitbringen?"
+        },
+        {
+          "text": "kann ich 3 freunde mitbringen?"
+        },
+        {
+          "text": "Wie viele Personen können in eine Suite?"
+        },
+        {
+          "text": "Guten Tag, ich würde gerne wissen ob es nicht doch möglich wäre zu fünft bei ihnen zu buchen?"
+        },
+        {
+          "text": "Hallo kann auch zu dritt oder viert in einer Suite rein ?"
+        },
+        {
+          "text": "Hallo guten Tag. Wir möchten gerne heute Abend zu Ihnen kommen. Ist es möglich zu dritt in eine Suite zu gehen?"
+        }
+      ],
+      "description": "wie viele personen können in eine suite"
+    },
+    {
+      "intent": "MehrereGutscheine",
+      "examples": [
+        {
+          "text": "Hallo, ich habe einen Gutschein über 2h geschenkt bekommen, möchte aber 4h bleiben. Kann ich also einen Gutschein ganz normal mit einem Aufenthalt kombinieren?"
+        },
+        {
+          "text": "Hallo, ist es möglich mehrere Gutscheine bei einem Bestellprozess einzulösen?"
+        },
+        {
+          "text": "Kann ich mehrere GUtscheine gleichzeitig einlösen?"
+        },
+        {
+          "text": "Guten Tag, kann ich auch mehr als einen Gutschein einlösen?"
+        },
+        {
+          "text": "Ich habe eine Frage zur Buchung. Ich möchte einen Tag reservieren für 2 Stunden. Möchte aber vor Ort zahlen, weil ich noch 2 Gutscheine habe. Ist das möglich. Telefonisch einen Termin zu vereinbaren?"
+        },
+        {
+          "text": "Hallo, kann man verschiedene Gutscheine kombinieren?"
+        }
+      ],
+      "description": "Hallo, ist es möglich mehrere Gutscheine bei einem Bestellprozess einzulösen?"
+    },
+    {
+      "intent": "GutscheinMitbringen",
+      "examples": [
+        {
+          "text": "Muss ich den Gutschein, mit dem ich gebucht habe, mitbringen?"
+        },
+        {
+          "text": "muss ich den gutschein mitbringen?"
+        },
+        {
+          "text": "Hallo. Habe für heute Abend spontan gebucht, war vorher aber noch nie bei euch. Habe Snacks und Getränke dazu gebucht (DIY-Gutschein). Werden diese dann über euer Easy-Order-System bestellt und dann im Nachhinein mit dem Gutschein verrechnet? Muss ich den Gutschein dafür ausdrucken und mitbringen? Liebe Grüße"
+        }
+      ],
+      "description": "muss ich den gutschein mitbringen?"
+    },
+    {
+      "intent": "GuthabenVerrechnung",
+      "examples": [
+        {
+          "text": "Kann man mein Guthaben verrechnen?"
+        },
+        {
+          "text": "ich habe bei Euch ein Guthaben von 72€, allerdings habe ich die E-Mail mit dem Ticketguthaben nicht mehr. Habe gestern einen Termin für den 11.01.19 gebucht, wusste aber nicht das ich die E-Mail für das Guthaben brauche. Ich hoffe, dass man mein Guthaben noch verrechnen kann."
+        }
+      ],
+      "description": "Kann man mein Guthaben verrechnen?"
+    },
+    {
+      "intent": "SchlechteErreichbarkeit",
+      "examples": [
+        {
+          "text": "da nimmt nie einer ab"
+        },
+        {
+          "text": "Ich sollte heute zwischen 8 und 12 angerufen werden. Bis jetzt ist nichts passiert. Passiert heute was????? Ich habe Frage zu meiner Buchung."
+        },
+        {
+          "text": "Guten tag  ich versuche euch seit Tagen zu erreichen komme aber nicht weiter. Könnte ihr mich bitte anrufe"
+        },
+        {
+          "text": "Hallo,ich habe eine dringende Frage und kann weder telefonisch einen erreichen noch wird auf meine Mails geantwortet!"
+        },
+        {
+          "text": "Hallo, habe bestimmt schon 30x angerufen. Nie geht jemand ans Telefon, nur auf Band sprechen möglich. Tel Nr angegeben, aber es wurde nur einmal zurückgerufen. Aber Handy nicht immer an, z.B. beim Arzt oder Reha-Sport. Man könnte ja es nchmal später probieren. Meine Tel Nr: 017670356304 oder 0203 350831. Bitte nochmals um Rückruf zwecks Buchung."
+        },
+        {
+          "text": "Ich habe jetzt bereits 4 mal angerufen und nie einen Rückruf erhalten!"
+        },
+        {
+          "text": "Guten Morgen, ich hab oft versucht telefonisch anzurufen leider ohne Erfolg."
+        },
+        {
+          "text": "Hey ich rufe seit Freitag in der Hotline an, und wurde nicht einmal durchgestellt"
+        },
+        {
+          "text": "Guten Morgen, habe versucht telefonisch Kontakt auf zu nehmen, hat leider nicht geklappt."
+        },
+        {
+          "text": "ich kann euch nicht per telefon erreichen"
+        },
+        {
+          "text": "Hallo kann Mann sie überhaupt nicht erreichen das ist echt zum kotzen"
+        },
+        {
+          "text": "Hallo kann Mann sie überhaupt nicht erreichen das ist echt zum kotzen "
+        },
+        {
+          "text": "Hallo das ist sehr dringend benötige Hilfe meine Rufnummer 017685642326 bitte melden ich erreiche sie seit 1 Woche nicht "
+        },
+        {
+          "text": "Ich versuche seit drei Stunden jemanden bei euch zu erreichen"
+        },
+        {
+          "text": "Hallo, ich habe vor 1-2 Wochen eine Nachricht geschrieben und keine Antwort bekommen... ist das normal?"
+        }
+      ],
+      "description": "Man kann euch nicht erreichen"
+    },
+    {
+      "intent": "WieKannIchBuchen",
+      "examples": [
+        {
+          "text": "Guten Tag ich versuche seid 20 Minuten anzurufen  und  eine  Buchung vorzunehmen"
+        },
+        {
+          "text": "kann man auch ein zimmer für paar std mieten"
+        },
+        {
+          "text": "Guten Tag :) Können Sie mir sagen an welchem Tag die Suite Deluxe zu buchen wäre? Am besten an einem Wochenende nach Weihnachten. <br>Vielen Dank für Ihre Hilfe. "
+        },
+        {
+          "text": "Hallo wie kann ich bei ihnen buchen resavieren lg filiz"
+        },
+        {
+          "text": "Guten Tag, ich habe einen Gutschein für 4 Std. Leider ist er nur noch bis Ende Dez. gültig und keine Termine sind frei. Was kann man da machen. Mir werden alternativen für 1 Std vorgeschlagen- allerdings komme ich aus der Nähe von Xanten, für eine Stunde lohnt sich die Fahrt nicht wirklich."
+        },
+        {
+          "text": "Guten Tag, wäre heute ab 15 Uhr noch ein Termin für zwei Personen frei? Vielen Dank im Voraus! Mit freundlichen Grüßen Julia Thon"
+        },
+        {
+          "text": "Hallo , ich habe eine Frage und zwar haben sie noch Termine für morgen ab 13 Uhr ?"
+        },
+        {
+          "text": "Hallo wann ist es möglich für 2 Personen ein Termin "
+        },
+        {
+          "text": "Hallo, will gerne ne suit reservieren fur samstag"
+        },
+        {
+          "text": "Hallo, ich möchte gerne eine Buchung für den 02.12.2018 durchführen. Beginn ab 14:00. Ein Aufenthalt von 4 Stunden für 2 Personen ist geplant. "
+        },
+        {
+          "text": "Würde gerne bei euch was mieten mit meiner Freundin geht das auch telefonisch Mit freundlichen Grüßen Maurice Spohr"
+        },
+        {
+          "text": "Ich möchte gerne buchen bei der Filiale in Köln"
+        },
+        {
+          "text": "Wir wollten deluce suite für 2 personen 2 stunden"
+        },
+        {
+          "text": "Wir mochten superior suite zimmer haben heute wenn das geht"
+        },
+        {
+          "text": "Hallo würde gerne morgen reservieren?"
+        },
+        {
+          "text": "Hallo können wir das für heute buchen"
+        },
+        {
+          "text": "Guten Morgen, wir haben von unseren Kindern einen Gutschein bekommen. Eine Frage, wäre am Wochenende in Dortmund noch etwas für 2std frei?"
+        },
+        {
+          "text": "hallo liebes MyWellness Team. Ich wollt mal nachfragen, ob am 10.05. ab 20 Uhr wirklich alle Räume belegt sind?"
+        },
+        {
+          "text": "Ich würde gerne für Montag den 25.03.2019 4 Stunden in Superioir Suite verbringen"
+        },
+        {
+          "text": "Guten Tag ich wollte mal nachfragen ob ich bei Ihnen für den 27.03 in ehrenfeld die deluxe Zimmer bekomme. Liebe Grüße"
+        },
+        {
+          "text": "Hi, habe ich noch die Möglichkeit auf eine Suite Sonntag 24.3. für 2 Personen?"
+        },
+        {
+          "text": "Kann ich hier über den Chat auch etwas reservieren?"
+        },
+        {
+          "text": "Guten Tag ich würde gerne wissen ob man auf irgend eine einfacherre weise herrausfinden kann zu welchen uhrzeiten welche suite noch frei ist"
+        },
+        {
+          "text": "Hey kann man bei euch auch Online buchen? Oder lieber vor ort ?"
+        },
+        {
+          "text": "Mahlzeit ich würde gerne morgen mit meiner Frau gegen 10 Uhr für 2 Stunden eine Deluxe Suite in essen buchen"
+        },
+        {
+          "text": "Hallo haben sie kein platz mehr für heute ab 16.30uhr? Für 2 personen in dortmund?"
+        },
+        {
+          "text": "Wollte wissen wann die nächsten Termine für Wochenende frei sind? Arbeitet ihr für Termine mit Essen zusammen"
+        },
+        {
+          "text": "Für ein Termin bei euch muss ich anrufen oder ? :)"
+        },
+        {
+          "text": "Hey, ist in Essen alles verfügbar?"
+        },
+        {
+          "text": "Kann man einen Aufenthalt auch telefonisch buchen?"
+        },
+        {
+          "text": "ich wollte mal fragen ob dienstg den 5.3 nochj wasfrei ist"
+        },
+        {
+          "text": "Meine Name ist Michelle und ich wollte fragen ob ihr spontan heute in Bochum oder Dortmund für zwei Stunden & 1 Person etwas frei habt"
+        },
+        {
+          "text": "Hallo zusammen ist eine buchung für den 04.03. noch möglich bei Ihnen"
+        },
+        {
+          "text": "Was habe ich da verfügbar"
+        },
+        {
+          "text": "Hallo, könnten sie mir bitte sagen wann ab dem 25.02 die comfort Suite zur Verfügung steht"
+        },
+        {
+          "text": "Hi haben sie heute abend was frei egal welche ort für 2 personen"
+        },
+        {
+          "text": "Ich wollte einen Termin machen für mich und meine freundin"
+        },
+        {
+          "text": "kann man nur online buchen ?"
+        },
+        {
+          "text": "Muss ich vorher anrufen um etwas zu buchen ? oder einfach vorort ?"
+        },
+        {
+          "text": "Hey kann man bei euch auch vor Ort buchen ? Weil ich gerne Vor Ort zahlen würde jedoch online buchen möchte"
+        },
+        {
+          "text": "Guten Abend, besteht sehr spontan die Möglichkeit in köln zu entspannen ? Gegen 13/14 Uhr für eine oder zwei Stunden ? Vielen Dank"
+        },
+        {
+          "text": "ich wollte eine suit buchen für 2 Stunden in Bochum oder essen für den 03.03.2019"
+        },
+        {
+          "text": "Hallo ich würde gerne wissen ob für dieses Wochenende noch etwas frei ist ?😊"
+        },
+        {
+          "text": "Vielen Dank, sind noch Termine an dem 16.02 oder 17.02 Verfügbar?"
+        },
+        {
+          "text": "Hallo, ich wollte einmal erfragen, ob sie morgen von ca. 15-17 Uhr eine superior Suite für zwei Personen haben? :)"
+        },
+        {
+          "text": "ich möchte einen termin ausmachen"
+        },
+        {
+          "text": "Teilen Sie mir heute die verfügbaren Buchungsplätze mit?"
+        },
+        {
+          "text": "Laut der Internetseite ist bis Ende des Jahres alles Ausgebucht stimmt das?"
+        },
+        {
+          "text": "brauche heute eine Suite"
+        },
+        {
+          "text": "Schade. Wäre denn am 2.3 für 6 bis 8 Stunden noch was frei in einer suite am liebsten die mit"
+        },
+        {
+          "text": "Ich will morgen bei euch entspannen. Ist noch was frei?"
+        },
+        {
+          "text": "ist morgen noch was frei? Um 18 Uhr?"
+        },
+        {
+          "text": "Hallo möchte gerne dieses buchen. Für mich und meinen mann 9.2."
+        },
+        {
+          "text": "ich möchte buchen"
+        },
+        {
+          "text": "ichmöchte buchen"
+        },
+        {
+          "text": "Hallo, mein Name ist Ikram und ich würde gerne einen Aufenthalt in der superior Suite bei euch buchen für diesen Freitag Nachmittag wenn ihr noch was frei habt wäre nett wenn du dich zurück meldest"
+        },
+        {
+          "text": "Hallo, ich wollte mal fragen ob es sich einrichten lassen würde am 23.01. von 22:00 Uhr bis 00:15 zu buchen, da meine Freundin am 24.01 Geburtstag hat. Ich weiß, ihr habt nur bis 00:00 geöffnet, aber ich dachte, ich frage einfach mal nach.  Liebe Grüße"
+        },
+        {
+          "text": "Hi habe da eine frage ich würde gerne am 18.04.19 von 18 bis 23 Uhr eine superior suit haben wolle mal fragen ob dies möglich ist. "
+        },
+        {
+          "text": "Hallo ich würde gerne für den 21.01 zwei Stunden für eine Person in Bochum buchen um 21:45 habt ihr noch was frei online kriege ich die Buchung leider nicht bestätigt "
+        },
+        {
+          "text": "ist über morgen noch eine suite verfügbar?"
+        },
+        {
+          "text": "ich möchte gerne für heute für eine stunde buchen "
+        },
+        {
+          "text": "Hallo wie siehz man jetz wann ihr fei habt"
+        },
+        {
+          "text": "Hallo, ich habe mich gerade neu registriert. Danach sollte ich meine E-Mail Adresse bestätigen, da kam jedoch nie etwas an. Gibt es noch eine andere Möglichkeit eine Suite zu buchen? Und wie viele Stunden darf man maximal ? LG Celina"
+        },
+        {
+          "text": "Wie kann ich buchen?"
+        },
+        {
+          "text": "Kann ich telefonisch buchen?"
+        },
+        {
+          "text": "Kann ich direkt in der Filiale buchen?"
+        },
+        {
+          "text": "Wo kann ich buchen?"
+        },
+        {
+          "text": "Kann ich am Telefon buchen?"
+        },
+        {
+          "text": "Hallo ich wollte für meine Tanten zu Weihnachten einen Gutschein buchen habe soweit alles auch fertig aber wie wähle ich das Datum aus damit der Tag fest ist ?"
+        },
+        {
+          "text": "Hallo zusammen, ich überlege gerade eine Ihrer Filialen zu besuchen. Allerdings kann ich die Filiale in Essen nicht auswählen, woran liegt es?"
+        },
+        {
+          "text": "Gibt es in diesem jahr zwischen weihnachten und Neujahr die Möglichkeit eine superior Bereich für 2Stunden zu bekommen?"
+        },
+        {
+          "text": "Hallo , ich komme mit der online Buchung nicht ganz klar! Gibt es am 06.12 oder am 09.12 oder am 16.12 noch einen Termin (egal in welcher Filiale) für 3 Stunden für die superior Suite ? LG "
+        },
+        {
+          "text": "Hallo ich würde gerne für den 2 Januar eine Suite buchen gehen auch 1 1/2 Stunden ? "
+        },
+        {
+          "text": "Hallo. Die neue Zeitauswahl auf der Webseite ist der Horror! Habt ihr morgen abend was in Bochum oder Essen frei? "
+        },
+        {
+          "text": "Guten Tag bräuchte die SUPERIOR Suite für 3-4 Stunden "
+        },
+        {
+          "text": "Hallo. Ich würde gerne eine Suite buchen für den 15.12"
+        },
+        {
+          "text": "Hallo, wäre für Sonntag Abend noch eine Suite mit dem Standard Paket zu haben ?"
+        },
+        {
+          "text": "Hallo, ich würde gerne am 22.12.2018 eine Deluxe Suite buchen für mindestens anderthalb Stunden. Ist dort noch etwas verfügbar ?"
+        },
+        {
+          "text": "Hallo, ich bin jetzt angemeldet und habe einen Gutschein, den ich auch in meinem Kundenkonto eingelöst habe... aber wie kann ich eine suit buchen?"
+        },
+        {
+          "text": "Guten Tag, ich würde gerne für den 15.12.18 eine Suite buchen. Ab 20.00 Uhr für zwei Personen. Wir würden gerne 3 Std. bleiben wollen. Ist dies möglich?"
+        },
+        {
+          "text": "Guten Morgen. Könnten Sie mir bei dir Buchung evtl. Behilflich sein?! Ich würde gerne mindestens zwei Stunden am liebsten drei Stunden buchen entweder am 08.12.18 oder am 09.12.18. Der Beginn (Uhrzeit) und der Ort können flexibel gewählt werden. Leider konnte ich nichts finden, was Ich für mehr als eine Stunde hätte buchen können "
+        },
+        {
+          "text": "Hallo... ist heute ab 17 Uhr für 2 Stunden noch ne comfort ( also ne normale ) Kabine frei ?"
+        },
+        {
+          "text": "Guten morgen ich würde gerne das Programm DELUXE-SUITE buchen nun meine Frage wie bekomme ich es gebucht komme nirgendwo drauf "
+        },
+        {
+          "text": "Hallo mein Name ist Muzaffer Zeybek, ich würde gerne das Zimmer was ich beim letzten Besuch hatte buchen für den 08.Dezember für 4 std. Ist das möglich das wir das wider telefonisch machen. "
+        },
+        {
+          "text": "Hallo ☺ kann man Bochum online nich buchen? 😎 oder habt ihr wirklich keine Kapazitäten mehr z.B. im März? "
+        },
+        {
+          "text": "Hallo ich wollte etwas für Samstag buchen zum Jahrestag , besteht keine Möglichkeit mehr ?"
+        },
+        {
+          "text": "Hallo zusammen, ich würde gerne ein Zimmer für 2h anmieten. Ort ist egal. Für 2 Personen. Zeitraum ist zwischen wheinachten und Silvester. Am liebsten halt ohne das Zimmer wechseln zu müssen. Ist da noch was frei. "
+        },
+        {
+          "text": "Hallo, ich würde gerne mit meiner Freundin  für 2 Stunden in der kommenden Woche am Donnerstag oder Freitag in die comfort suit. Hatte etwas Schwierigkeiten bei der Buchung. Können Sie mir da weiterhelfen "
+        },
+        {
+          "text": "Hallo ist heute noch nen Termin für 2 Stunden verfügbar"
+        },
+        {
+          "text": "Hi, könnt ihr mir bitte sagen an welchem Standort ich heute noch die Möglichkeit auf eine Supiror-Suit hätte"
+        },
+        {
+          "text": "Hallo, unzwar wollte ich für den 9.12 für 2 Personen buchen , aber das ist gelb also ist eingeschränkt, kann ich jetzt da buchen oder nicht ?"
+        },
+        {
+          "text": "Hallo, wie buche ich superiror 2 personen?"
+        },
+        {
+          "text": "Hallo. Ich wollte bei Ihnen für den 07.12. eine Suite für 2 h buchen, aber irgendwie geht das freitags immer nur für 1 h. Hat das einen besonderen Grund? "
+        },
+        {
+          "text": "Hallo, wäre die comfort Suite ab 17:00 -19:00 Uhr frei ? Für zwei Personen "
+        },
+        {
+          "text": "Hallo, ich habe eine Frage und zwar ist Die superior Suite für Freitag den 30.11.18 für 3 Stunden noch zu haben ? Lieben Gruß "
+        },
+        {
+          "text": "Kann man auch für Samstag buchen ? "
+        },
+        {
+          "text": "Hallo, muss ich zwingend über ihre Homepage buchen? Ich finde den Buchungsvorgang etwas kompliziert mit allen Daten die sie benötigen "
+        },
+        {
+          "text": "Guten Tag, ich suche für den 1.12 für 2 Stunden ab 16 Uhr eine suite"
+        },
+        {
+          "text": "Gibt es heute zufällig noch freie Zeiten in einem McWellness?"
+        },
+        {
+          "text": "Hallo hättet ihr für Samstag für ca. 3 Std. noch eine Suite frei für 2 Personen? "
+        },
+        {
+          "text": "Ich möchte am Mittwoch mit meiner Freundin kommen ab 15 Uhr habe sie da noch Plätze frei ? "
+        },
+        {
+          "text": "Hallo, wir würden gerne dieses Freitag zu euch kommen. Gerne ab 21 Uhr für zwei std. Ist da noch etwas frei? Gerne die Deluxe Suite. Lg Jenny "
+        }
+      ],
+      "description": "Kann ich telefonisch buchen?"
+    },
+    {
+      "intent": "WasIstEinArrangement",
+      "examples": [
+        {
+          "text": "Wofür brauche ich ein Arrangement ?"
+        },
+        {
+          "text": "Was ist ein Arrangement ?"
+        },
+        {
+          "text": "Hallo, bieten Sie keine Arrangements an?"
+        },
+        {
+          "text": "Was ist ein Paket?"
+        }
+      ],
+      "description": "Was ist ein Arrangement?"
+    },
+    {
+      "intent": "ShampooMitbringen",
+      "examples": [
+        {
+          "text": "Darf Duschgel und Shampoo mitgebracht werden? "
+        },
+        {
+          "text": "Ich habe mein Shampoo vergessen, ist das Schlimm?"
+        },
+        {
+          "text": "Habt ihr Shampoo da?"
+        },
+        {
+          "text": "Muss ich Shampoo mitbringen?"
+        }
+      ],
+      "description": "Muss ich Shampoo mitbringen?"
+    },
+    {
+      "intent": "AusweisMitbringen",
+      "examples": [
+        {
+          "text": "Muss ich einen Personalausweis mitbringen?"
+        },
+        {
+          "text": "Hallo, muss man zwingend einen Personal Ausweis oder ähnliches mitbringen?"
+        }
+      ],
+      "description": "Muss ich einen Personalausweis mitbringen?"
+    },
+    {
+      "intent": "GutscheinRueckgabe",
+      "examples": [
+        {
+          "text": "Kann ich einen Gutschein zurückgeben"
+        },
+        {
+          "text": "Ich möchte meinen Gutschein umtauschen"
+        },
+        {
+          "text": "Hallo, ich wollte einen Gutschein verschenken. Falls das nicht das richtige Geschenk ist, könnte ich den eventuell auch wieder umtauschen?"
+        }
+      ],
+      "description": "Kann ich einen Gutschein zurückgeben?"
+    },
+    {
+      "intent": "WasMitbringen",
+      "examples": [
+        {
+          "text": "Guten Tag, ist es erlaubt, dass meine seine eigenen Handtücher mitbringt"
+        },
+        {
+          "text": "Was muss ich mitbringen?"
+        },
+        {
+          "text": "Muss ich einen Bademantel mitbringen?"
+        },
+        {
+          "text": "was muss ich zu einer buchung mitbringen"
+        },
+        {
+          "text": "ich wollte gerade online bei euch buchen und ich frage mich gerade ob Handtücher /Bademantel oder der gleichen in den Suiten ausliegen"
+        },
+        {
+          "text": "Wenn ich den Gutschein eingelöst habe muss ich den originalen auch noch mitbringen und vorzeigen?"
+        },
+        {
+          "text": "Hallo, ich habe vor demnächst einen Tag bei McWellness zu verbringen. Sind die Handtücher selbst mitzubringen ?"
+        },
+        {
+          "text": "muss ich was mit nehmen"
+        },
+        {
+          "text": "Kann man sich auch Bademäntel, Handtücher etc. Selber mitbringen?"
+        },
+        {
+          "text": "Bekommt man in der Deluxe Suite Bademäntel dazu? "
+        },
+        {
+          "text": "Hallo ich würde gerne wissen ob man kostenfrei Handtücher und Bademäntel gestellt bekommt oder ob man diese selber mitbringen muss und ob man selber Verpflegung mitbringen darf"
+        },
+        {
+          "text": "Hallo, ich habe eben gebucht. Was muss man alles mitnehmen? "
+        },
+        {
+          "text": "Hallo McWellness Team muss man bei einem Aufenthalt Bade Kleidung sprich Badeanzug Badehose mit bringen ? Liebe Grüße"
+        },
+        {
+          "text": "was benötigt man für den Aufenthalt"
+        },
+        {
+          "text": "Hey wollte was buchen bei euch"
+        },
+        {
+          "text": "Was muss ausser Badesachen sonst mit gebracht werden für den Tag ??"
+        },
+        {
+          "text": "Brauche ich Schlappen?"
+        },
+        {
+          "text": "Brauche ich zwingend ein Duschtuch?"
+        },
+        {
+          "text": "muss ich irgendwas mitbringen"
+        },
+        {
+          "text": "was muss ich mitnehmen"
+        },
+        {
+          "text": "auch handtücher?"
+        },
+        {
+          "text": "Muss ich Schlappen mitbringen?"
+        },
+        {
+          "text": "Brauche ich einen Bademantel?"
+        }
+      ],
+      "description": "was muss ich mitbringen"
+    },
+    {
+      "intent": "KameraUberwachung",
+      "examples": [
+        {
+          "text": "Gibt es bei euch Kameraüberwachung?"
+        },
+        {
+          "text": "Habt ihr in den Suiten Kameras?"
+        },
+        {
+          "text": "Sind die Zimmer mit Kameraüberwachung?"
+        },
+        {
+          "text": "weil viele freunde die schon da waren waren enttäuscht so das überal im zimmern mit kamara ausgestattet ist"
+        },
+        {
+          "text": "Sind Kameras in den Suiten?"
+        }
+      ],
+      "description": "Gibt es bei euch Kameraüberwachung?"
+    },
+    {
+      "intent": "TerminVerschieben",
+      "examples": [
+        {
+          "text": "Guten Morgen! Ich möchte gerne einen selbst zusammengestellten Gutschein verschenken. Kann ich da schon vorab einen Termin reservieren?"
+        },
+        {
+          "text": "Kann ich einen Termin verschieben?"
+        },
+        {
+          "text": "Kann ich das  Datum von meiner Buchung ändern?"
+        },
+        {
+          "text": "Ich kann leider nicht kommen, kann ich meinen Termin verschieben?"
+        },
+        {
+          "text": "Kann ich meinen termin umbuchen?"
+        },
+        {
+          "text": "Guten Tag, ich habe für den 24.11.18 eine Superior Suite gebucht von 18:00Uhr - 20:00Uhr und wollte einmal nachfragen, ob es möglich wäre dies auf 17:00 Uhr - 19:00 Uhr vorzuverlegen. Freundlichen Gruß Hörster"
+        },
+        {
+          "text": "*Mein Partner kann an dem Tag nicht, besteht die Möglichkeit den Tag zu wechseln?"
+        },
+        {
+          "text": "Hallo, ich habe eben gebucht. Habe mich aber im Tag vertan. Eine Stornierungsnummer habe ich leider nicht bekommen. Meine Buchungsnummer lautet 100129809. Können Sie die Buchung stornieren bzw. einen anderen Tag buchen?"
+        },
+        {
+          "text": "Hallo ich wollte für meine Tanten zu Weihnachten einen Gutschein buchen habe soweit alles auch fertig aber wie wähle ich das Datum aus damit der Tag fest ist ? "
+        },
+        {
+          "text": "Guten Morgen, ich habe für morgen in Bochung für 15:15 eine Suite gebucht - wir können den Termin aus gesundheitlichen Gründen nicht wahrnehmen. Kann ich über Sie umbuchen oder muss ich komplett stornieren und neu buchen?"
+        },
+        {
+          "text": "Hallo, ich habe für Sonntag um 10 Uhr bei euch einen Raum gemietet für 2 Personen und 2 Stunden &amp; wollte fragen wie ich den verschieben kann? Ob evtl an diesem Tag noch etwas für später frei wäre ?! "
+        },
+        {
+          "text": "ich habe ein kleines Anliegen, ich habe für den 29.01. ab 11 Uhr ein Winter Arrangement gebucht leider schaffen wir es aber erst um 14 Uhr zu kommen, wäre es möglich es auf 14 Uhr zu verschieben?"
+        },
+        {
+          "text": "ich hab für morgen eine Suite gebucht um22.30 - 23:30 ; würde Ziet gerne ändern"
+        },
+        {
+          "text": "Guten Morgen, ich habe eine Suit für den 02.03. reserviert. Können wir es auf den 03.03. verlegen ?"
+        }
+      ],
+      "description": "Kann ich einen Termin verschieben?"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Mit wemm spreche ich ?"
+        },
+        {
+          "text": "Sag mir, ob Du Mensch bist."
+        },
+        {
+          "text": "Soll ich Watson zu Dir sagen ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit einem Menschen ?"
+        },
+        {
+          "text": "Spreche ich jetzt mit dem Watson-Bot ?"
+        },
+        {
+          "text": "Spreche ich mit einer Maschine ?"
+        },
+        {
+          "text": "Was kannst du"
+        },
+        {
+          "text": "Wie soll ich dich nennen ? Hast Du einen Namen ?"
+        },
+        {
+          "text": "Ich möchte wissen, ob Du ein Mensch oder ein Roboter bist."
+        },
+        {
+          "text": "Bist Du ein Mensch oder ein Roboter ?"
+        },
+        {
+          "text": "Wie lautet dein Name ?"
+        },
+        {
+          "text": "Wie kann ich zu Dir sagen ?"
+        },
+        {
+          "text": "Wie heisst Du ? Hast Du ueberhaupt einen Namen ?"
+        },
+        {
+          "text": "Wie heisst Du ? Bist Du in Mensch ?"
+        },
+        {
+          "text": "Bist Du ein Roboter ?"
+        },
+        {
+          "text": "Bist Du Watson ?"
+        },
+        {
+          "text": "Hast Du einen Namen oder bist Du nur ein Roboter ?"
+        },
+        {
+          "text": "Heisst Du irgendwie ?"
+        },
+        {
+          "text": "Welchen Namen kann ich fuer Dich benutzen ?"
+        },
+        {
+          "text": "wer bist du"
+        },
+        {
+          "text": "Kann ich dich mit einem Namen ansprechen?"
+        },
+        {
+          "text": "Kann ich Namen Watson benutzen ?"
+        }
+      ],
+      "description": "Fragen Sie, ob Sie mit einem Menschen oder einem Bot sprechen."
+    },
+    {
+      "intent": "Uberraschungen",
+      "examples": [
+        {
+          "text": "Kann ich einen Aufenthalt als Geschenk buchen?"
+        },
+        {
+          "text": "Ich hätte noch eine Frage und zwar wollte ich das jetzt für den 03.02 buchen aber jetzt steht da ich brauch die E-Mail Adressen aber ich kenne die garnicht von meinen Tanten und ehrlich gesagt soll es ja auch eine Überraschung werden. "
+        },
+        {
+          "text": "Ich würde gerne für meinen 1. Hochzeitstag am kommenden Samstag (15.9.) für 2 Stunden meine Frau mit einem Besuch bei euch überraschen!"
+        },
+        {
+          "text": "Wie kann ich eine Überraschung buchen?"
+        },
+        {
+          "text": "Kann ich für eine andere Person buchen, ohne dass diese es mitbekommt?"
+        },
+        {
+          "text": "Kann ich jemanden überraschen?"
+        },
+        {
+          "text": "Kann man bei euch Überraschungen planen?"
+        }
+      ],
+      "description": "Kann man bei euch Überraschungen planen?"
+    },
+    {
+      "intent": "WieGutscheinEinlösen",
+      "examples": [
+        {
+          "text": "ICh habe bezüglich dem Geschenkgutscheinen eine Frage. Wenn man diese einlösen möchten macht man es dann Online? "
+        },
+        {
+          "text": "Hallo. ich möchte eine Comfortsuite buchen und habe einen Gutschein. Der Code wird aber nicht bei Rabatt-Code akzeptiert. Wie kann ich mit dem Gutschein bezahlen?"
+        },
+        {
+          "text": "Hallo, Ich habe einen Gutschein per Mail erhalten und weiß nicht wie ich den einlösen kann"
+        },
+        {
+          "text": "Kann ich meinen Gutschein online einlösen?"
+        },
+        {
+          "text": "Kann ich meinen Gutschein vor Ort einlösen?"
+        },
+        {
+          "text": "Kann ich in der Filiale meinen Gutschein benutzen?"
+        },
+        {
+          "text": "Hey! Ich habe vor einen Gutschein zu bestellen und den per Post zukommen zu lassen um ihn dann zu verschenken. Wie läuft das einlösen des Gutscheins ab? Liebe Gruß!"
+        },
+        {
+          "text": "Wie löse ich einen Gutschein ein?"
+        },
+        {
+          "text": "Hallo zusammen, ich hab einen Gutschein vorliegen.  Ich möchte mich gerne Online Anmelden, kann aber kein Feld entdecken in dem ich meinen Gutscheincode angeben kann. "
+        },
+        {
+          "text": "Kann ich einen Gutschein auch noch vor Ort einlösen oder muss ich das bei der Buchung machen."
+        },
+        {
+          "text": "Guten Morgen Team MC Wellness. Ich habe vor &lt;2 Jahren einen Gutschein bei Ihnen gekauft \"MC Wellness Dortmund\" und würde diesen im Dezember gerne einlösen. Ist es egal, in welchem MC Wellness ich diesen Gutschein jetzt einlöse oder gibt es Einschränkungen? Mit freundlichen Grüßen, Charlotte Franke"
+        },
+        {
+          "text": "Guten morgen. Ich habe meinem Partner einen Gutschein Rundum Erholung geschenkt. Diesen möchten wir gerne diesen Sonntag, 25.11 um 15 Uhr einlösen. "
+        },
+        {
+          "text": "Hey würde gerne einen Gutschein einlösen und bekomme es auf der Website nicht hin.. könntet ihr mir helfen? "
+        },
+        {
+          "text": "Hallo habe einen candle light Gutschein und will den buchen wie mach ich das ? "
+        },
+        {
+          "text": "Guten Tag, ich habe eine Gutschein für das Angebot „beste Freundinnen“ .. kann ich den denn auch mit meinem Freund einlösen? Danke und viele Grüße "
+        },
+        {
+          "text": "Hallo, wenn ich einen gutschein bei euch mache muss ich vorab entscheiden in welche Filiale er eingelöst wird? Mfg M. Schubert"
+        },
+        {
+          "text": "hi wo kann ich einen Gutschein einlösen?"
+        },
+        {
+          "text": "Hallo, wie kann ich einen Geschenkgutschein den man erhalten hat einlösen?"
+        },
+        {
+          "text": "Wo löse ich meinen Gutschein ein?"
+        },
+        {
+          "text": "Wie kann ich meinen Gutschein einlösen?"
+        },
+        {
+          "text": "Wann kann ich meinen Gutschein einlösen?"
+        },
+        {
+          "text": "Guten Morgen! :) ich habe noch einen mcwellness gutschein. Kann ich irgendwo überprüfen, welchen Wert der Gutschein noch besitzt? Danke und viele Grüße"
+        },
+        {
+          "text": "Hallo, ich habe einen Gutschein aus dem Jahre 2016, der bis zum Ende diesen Jahres gültig ist für Do-Aplerbeck. Kann ich diesen Gutschein auch für Do-Mitte benutzen? Beste GRüße Andrea"
+        },
+        {
+          "text": "Auch \"alte\" Gutscheine für alle jetzt bestehenden Filialen gültig?"
+        },
+        {
+          "text": "Guten Morgen, ich habe einen Gutschein von eure Niederlassung Dortmund Aplerbeck. Kann ich diesen nun wirklich nur in Dortmund einlÃ¶sen oder auch z.B. in Essen ?"
+        },
+        {
+          "text": "Hallo, ich habe einen Wellness Gutschein für eine Superior Suite und finde auf der WEB Seite keine Möglichkeit diesen einzugeben"
+        },
+        {
+          "text": "Hallo ich habe ein Gutschein Geschenk bekommen"
+        },
+        {
+          "text": "Guten Tag, wenn ich einen Welnessgutschein habe, kann ich dann ganz normal über die Hompage buchen?"
+        },
+        {
+          "text": "Hallo liebes McWellness-Team, ich habe einen Gutschein Code und weiß nicht so ganz wie ich den hier auf der Seite verwenden kann. Kann mir da jemand weiterhelfen? LG"
+        }
+      ],
+      "description": "Wie kann ich meinen Gutschein einlösen?"
+    },
+    {
+      "intent": "Schwanger",
+      "examples": [
+        {
+          "text": "Ich bin schwanger"
+        },
+        {
+          "text": "Kann ich mit einem Babybauch zu euch?"
+        },
+        {
+          "text": "Wie sieht es mit schwangeren aus?"
+        },
+        {
+          "text": "Kann ich auch kommen, wenn ich schwanger bin?"
+        },
+        {
+          "text": "Kann ich schwanger in die Sauna?"
+        },
+        {
+          "text": "Hallo! Wir haben am 11.01 für den 17.02.2019 von 10:45 Uhr bis 14:45 Uhr eine Comfort Suit in Köln gebucht. Nach Abschluss der Buchung wurde geschrieben, dass die Zeit abgelaufen sei und die Buchung deshalb nicht registriert werden konnte. Allerdings habe ich eine Buchungsbestätigung bekommen. Kann ich mich darauf verlassen, dass alles trotzdem funktioniert hat? Die Kölner Mail Adresse sowie Telefonnummer sind inaktiv. Vielen Dank, Jamie Lee Wagener"
+        },
+        {
+          "text": "Hallöchen. Ich wollte fragen was sie so für schwangere anbieten? Da Sauna etc wegen der Hitze wegfällt. Dankeschön schon mal"
+        }
+      ],
+      "description": "Kann ich Schwanger in die Sauna?"
+    },
+    {
+      "intent": "Netflix",
+      "examples": [
+        {
+          "text": "Kann man bei euch Netflix schauen?"
+        },
+        {
+          "text": "Gibt es bei euch Netflix?"
+        },
+        {
+          "text": "Auch Netflix?"
+        }
+      ],
+      "description": "Habt ihr Netflix?"
+    },
+    {
+      "intent": "Gratisstunde",
+      "examples": [
+        {
+          "text": "wie geht das mit der 11. stunde"
+        },
+        {
+          "text": "guten morgen, wie läuft das denn genau ab mit der 11. gratisstunde? bekommt man dann einen gutschein zum einlösen für die nächste Buchung? wie erkennt man das ich schon 10mal da war, an meiner mitgliedskarte wenn ich einchecke? und kriegt meine begleitung wenn diese ebenfalls 10 mal da war die gratisstunde? :)"
+        },
+        {
+          "text": "wie bekomme ich den code für meine gratis stunde?"
+        },
+        {
+          "text": "was ist mit Treuepunkten ?"
+        }
+      ],
+      "description": "Wie funktioniert das mit der Gratisstunde?"
+    },
+    {
+      "intent": "BuchungAbschliessen",
+      "examples": [
+        {
+          "text": "Ja, Buchung abschliessen"
+        }
+      ],
+      "description": "Ja, Buchung abschliessen"
+    },
+    {
+      "intent": "KindMitbringen",
+      "examples": [
+        {
+          "text": "4 Jahre und 6 Jahre alt ,müssen die auch bezahlen ?lg"
+        },
+        {
+          "text": "Hallo. Ich habe ein baby sie ist 5 monate alt. Könnte ich sie auch mitnehmen?"
+        },
+        {
+          "text": "Ich würde gerne mein 3 jähriges Kind mitnehmen. Darf mein Kind kostenlos mit?"
+        },
+        {
+          "text": "Wie sieht es aus wenn wir für zwei Personen buchen (Papa und Mama) und unsere Tochter 5 Jahre alt bringen wir mit!?"
+        },
+        {
+          "text": "Hallo, ich hätte da mal eine Frage. Undzwar mein Bruder ist 5 Jahre alt. Und meine Frage ist, ob ich in bei der Personenanzahl bei der Buchung mit eingeben muss?"
+        }
+      ],
+      "description": "Kann ich mein Kind mitbringen?"
+    },
+    {
+      "intent": "BraucheEinGeschenk",
+      "examples": [
+        {
+          "text": "ich suche nen geschenk für meinen freund zum jahrestag . habt ihr ne idee"
+        },
+        {
+          "text": "Ich brauche noch ein Geschenk"
+        },
+        {
+          "text": "Ich hätte gerne ein Geschenk für meine Freundin"
+        },
+        {
+          "text": "Kann ich bei euch ein Geschenk kaufen?"
+        },
+        {
+          "text": "ich benötige noch ein Geschenk für meine tante"
+        }
+      ],
+      "description": "Ich brauche noch ein Geschenk"
+    },
+    {
+      "intent": "Fundsachen",
+      "examples": [
+        {
+          "text": "Ich habe etwas in der Suite vergessen"
+        },
+        {
+          "text": "Ich habe etwas in der Suite verloren"
+        },
+        {
+          "text": "Ich habe mein Armband verloren"
+        },
+        {
+          "text": "Habt ihr ein Shampoo gefunden?"
+        },
+        {
+          "text": "Habt ihr ein Armband gefunden?"
+        },
+        {
+          "text": "ich habe meine Uhr bei euch vergessen. Wie kann ich die wieder bekommen? HAbt ihr die gefunden?"
+        },
+        {
+          "text": "Hallo, ich habe meine Uhr in der Suite liegen lassen."
+        },
+        {
+          "text": "Hey! Ich habe gestern meine Uhr bei euch in Aplerbeck liegen lassen. Wann kann ich diese abholen? Bzw wurde diese bereits abgegeben? Da nach uns ja bestimmt erst mal gereinigt wurde.. vielen Dank!"
+        },
+        {
+          "text": "Habt ihr Fundsachen?"
+        }
+      ],
+      "description": "Ich habe etwas in der Suite verloren"
+    },
+    {
+      "intent": "WasFürAufgüsseGibtEs",
+      "examples": [
+        {
+          "text": "welche aufgüsse habt ihr"
+        },
+        {
+          "text": "Guten Tag wie teuer ist ein zusätzlicher Sauna Aufguss ? "
+        },
+        {
+          "text": "was für aufgüsse habt ihr in der sauna?"
+        },
+        {
+          "text": "was gibt es für aufgüsse"
+        }
+      ],
+      "description": "Was habt ihr für Aufgüsse"
+    },
+    {
+      "intent": "Entschädigung",
+      "examples": [
+        {
+          "text": "Der Fernseher ging nicht"
+        },
+        {
+          "text": "Die Sauna ging nicht, kriege ich mein Geld zurück"
+        },
+        {
+          "text": "Die Dampfsauna hat nicht funktioniert"
+        },
+        {
+          "text": "Wo bleibt meine Entschädigung"
+        },
+        {
+          "text": "Alles war bei meinem Aufenthalt kaputt"
+        },
+        {
+          "text": "es wurde nun gesagt das wir diese Woche eine email erhalten über eine Entschädigung da das Dampfbad die 2 Stunden wo wir da waren nicht funktioniert hat"
+        },
+        {
+          "text": "Hallo, ich habe schon vor längerer Zeit einen Termin gehabt der ihrer Seits Verschoben wurde weil die Suite defekt war. Wir haben dann per E.Mail einen Gutschein erhalten. Wie löse ich diesen ein wenn ich online eine Suite buche?  Meine Buchung lief über den Namen Marina Badrous.  LG Marina "
+        },
+        {
+          "text": "Kriege ich mein Geld zurück?"
+        }
+      ],
+      "description": "Mir wurde eine Entschädigung versprochen"
+    },
+    {
+      "intent": "FilialEroffnung",
+      "examples": [
+        {
+          "text": "Hallo, wann eröffnet die filiale in Köln ? Und werden neueröffnungsangebote kommen ?"
+        },
+        {
+          "text": "Hallo, ist das richtig, dass die Filliale in Ehrenfeld noch im Bau ist?"
+        },
+        {
+          "text": "Hallo! Können Sie mir sagen, wann der Standort in Essen auf"
+        },
+        {
+          "text": "Hallo,<br>die FIlialie in Köln wird ja ungefähr mitte Dezember eröffnen. Ab wann wird es möglich sein dort online zu buchen?<br>Würde es gern zu Weihnachten verschenken"
+        },
+        {
+          "text": "Hallo können Sie mir sagen, wann die Filialen in Düsseldorf und Köln eröffnet werden? MFG Müller"
+        },
+        {
+          "text": "Hallo liebes McWellness Team. Ich habe eine Frage zur neuen Filiale in Essen. Gibt es schon einen genauen Eröffnungstermin? Und welche Suiten wird es dort zu welchen Preisen geben?"
+        },
+        {
+          "text": "Hallo, ich würde gerne wissen, für wann in die Filliale in Köln, die Eröffnung geplant ist?"
+        },
+        {
+          "text": "Hallo, ich wollte einmal fragen wann die Filiale in Köln eröffnet?"
+        },
+        {
+          "text": "Hallo, wird ihre neue Filiale in Essen Rüttenscheid noch dieses Jahr eröffnen?"
+        },
+        {
+          "text": "Hallo,<br>können Sie schon ungefähr sagen wann die Filialen in Köln-Ehrenfeld und Hamburg eröffnet werden sollen?<br>Vielen Dank! Freundliche Grüße"
+        },
+        {
+          "text": "Hallo wann wird die Filiale in Köln fertig sein? "
+        },
+        {
+          "text": "Hallo, könnt ihr schon abschätzen, wann die Filiale in Köln ca. fertig wird? Wir fiebern schon eifrig der Eröffnung entgegen :). LG Claudia"
+        },
+        {
+          "text": "hi, ab wann kann man termine für essen buchen"
+        },
+        {
+          "text": "Ab wann öffnet Köln Bickendorf ? "
+        },
+        {
+          "text": "Hallo. Wann wird denn die Filiale in Köln öffnen?"
+        },
+        {
+          "text": "Hi wie lange dauert es noch bis zur Eröffnung der filliale in essen ? "
+        },
+        {
+          "text": "gibt es schon ein Datum für die Eröffnung in Essen?"
+        },
+        {
+          "text": "ich habe mitbekommen, dass demnächst eine Filiale auch in Köln eröffnet werden soll. Gibt es schon ein genaues Datum?"
+        },
+        {
+          "text": "Wann kommt ihr nach Essen?"
+        },
+        {
+          "text": "Wann macht die Filiale in Essen auf?"
+        },
+        {
+          "text": "Wann eröffnet die Filiale in Köln?"
+        }
+      ],
+      "description": "Wann eröffnet die Filiale in Köln?"
+    },
+    {
+      "intent": "Bewerben",
+      "examples": [
+        {
+          "text": "Ich möchte einen Job"
+        },
+        {
+          "text": "Habt ihr Jobs zu vergeben?"
+        },
+        {
+          "text": "Hallo liebes Team! Ich würd mich gern für den Standort in essen bewerben. Wann wird dort die Filiale denn eröffnet und wo ist diese genau ?"
+        },
+        {
+          "text": "Kann ich mich bei euch bewerben"
+        }
+      ],
+      "description": "Ich möchte mich bewerben"
+    },
+    {
+      "intent": "SuiteVerlängern",
+      "examples": [
+        {
+          "text": "Wo kann ich zusätzliche Zeit buchen?"
+        },
+        {
+          "text": "Ich möchte länger bleiben"
+        },
+        {
+          "text": "Hallo, Ich habe zwei Stunden gebucht aber würde gerne drei Stunden bleiben. Wie kann ich online verlängern?"
+        },
+        {
+          "text": "Kann ich meine Suite verlängern?"
+        },
+        {
+          "text": "Guten Tag, ich würde gerne einen Arrangement Gutschein verschenken.  Dort sind 2 Stunden Sauna erhalten. Kann man dieses auch noch vor Ort gegen Aufpreis verlängern? "
+        },
+        {
+          "text": "Wie kann ich meine Suite verlängern?"
+        },
+        {
+          "text": "Kann ich länger bleiben als geplant?"
+        },
+        {
+          "text": "Liebe Damen und Herren, ich habe für 2 Stunden gebucht. Meine Frage wäre, könnte man spontan noch eine Stunde verlängern? Vielen Dank im Voraus "
+        },
+        {
+          "text": "Hallo! Ich möchte den Gutschein „beste Freundin“ verschenken. Dieser beinhaltet eine Dauer von zwei Stunden. Ist es möglich bei Terminreservierung die Zeit aufzustocken? "
+        },
+        {
+          "text": "Hallo telefonisch bekommen ich niemanden ich habe eine Frage! Ich habe einen Gutschein erhalten den ich einlösen möchte, ich möchte aber 1 Stunde verlängern wie geht das  "
+        },
+        {
+          "text": "Hallo ich hab eine frage zu dem Geschenkgutschein candle light wellness. Und zwar würde ich gerne wissen wie viele Stunden das sind die man dann im mc wellness verbringt? und ob könnte man vielleicht noch Stunden drauf buchen?"
+        }
+      ],
+      "description": "Kann ich meine Suite verlängern?"
+    },
+    {
+      "intent": "RichtigeMassage",
+      "examples": [
+        {
+          "text": "Was kostet eine Massage?"
+        },
+        {
+          "text": "Welche Massagen bietet ihr an?"
+        },
+        {
+          "text": "Habt ihr Messeure bei euch?"
+        },
+        {
+          "text": "Gebt ihr auch richtige Massagen?"
+        },
+        {
+          "text": "Kann man sich bei euch richtig massieren lassen?"
+        },
+        {
+          "text": "Guten Tag, ich habe eine Frage.<br>Ist es auch möglich, dass man sie bei Ihnen massieren lässt oder bieten Sie diese Leistung nicht an ?"
+        },
+        {
+          "text": "Hallo. Kann man bei Ihnen auch Massagen dazu buchen? "
+        },
+        {
+          "text": "Hallo 🙂 gibt es in einer eurer Filialen die Möglichkeit, sich auch „richtig“ massieren zu lassen?"
+        },
+        {
+          "text": "Kann ich mich bei euch massieren lassen?"
+        }
+      ],
+      "description": "Kann man sich bei euch richtig massieren lassen?"
+    }
+  ]
